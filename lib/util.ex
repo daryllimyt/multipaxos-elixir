@@ -57,6 +57,14 @@ def node_init do  # get node arguments and spawn a process to exit node after ma
   config
 end # node_init
 
+def ballot_gt b1, b2 do
+  case b1 do
+    x  when Enum.at(x,0)> Enum.at(b2,0) -> true
+    x when (Enum.at(x,0) == Enum.at(b2,0)) && (Enum.at(x,1) > Enum.at(b2,1)) -> true
+    _ -> false
+
+  end
+end
 end # Util 
 
 

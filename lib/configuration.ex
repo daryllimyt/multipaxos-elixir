@@ -29,6 +29,8 @@ def params :default do
   print_after:  1_000,		# print transaction log summary every print_after msecs
 
   crash_server: %{},
+  # For replicas, max num additional commands that can be proposed
+  window_size: 100
   }
 end
 

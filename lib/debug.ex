@@ -23,7 +23,7 @@ def starting(config, verbose \\ 0) do
 end # starting
 
 def letter(config, letter, verbose \\ 3) do
-  if config.debug_level >= verbose do IO.write letter end
+  if config.debug_level >= verbose do IO.puts letter end
 end # letter
 
 def mapstring(map) do
