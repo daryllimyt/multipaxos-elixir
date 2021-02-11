@@ -58,9 +58,10 @@ def node_init do  # get node arguments and spawn a process to exit node after ma
 end # node_init
 
 def ballot_gt b1, b2 do
+  {id2, leader_id2} = b2
   case b1 do
-    x  when Enum.at(x,0)> Enum.at(b2,0) -> true
-    x when (Enum.at(x,0) == Enum.at(b2,0)) && (Enum.at(x,1) > Enum.at(b2,1)) -> true
+    {id1, _}  when id1> id2 -> true
+    {id1, leader_id1} when id1 == id2 and leader_id1 > leader_id2 -> true
     _ -> false
 
   end

@@ -2,8 +2,8 @@
 # distributed algorithms, n.dulay, 29 jan 21 
 # coursework, paxos made moderately complex
 
-SERVERS  = 5
-CLIENTS  = 5
+SERVERS  = 2
+CLIENTS  = 2
 CONFIG   = default
 DEBUG    = 0
 MAX_TIME = 15000

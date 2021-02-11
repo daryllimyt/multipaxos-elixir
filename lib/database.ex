@@ -18,7 +18,7 @@ defp next config, balances, db_seqnum do
     balances = Map.put balances, account1, balance1 + amount
     balance2 = Map.get balances, account2, 0
     balances = Map.put balances, account2, balance2 - amount
-
+    Debug.letter(config, "[DATABASE: #{inspect self()}] Executing transaction #{inspect transaction}")
     send config.monitor, { :DB_UPDATE, config.node_num, db_seqnum+1, transaction }
     next config, balances, db_seqnum+1
 

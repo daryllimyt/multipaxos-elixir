@@ -1,0 +1,10 @@
+{application,multipaxos,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"multipaxos"},
+              {modules,['Elixir.Acceptor','Elixir.Client','Elixir.Commander',
+                        'Elixir.Configuration','Elixir.Database',
+                        'Elixir.Debug','Elixir.Leader','Elixir.Monitor',
+                        'Elixir.Multipaxos','Elixir.Replica','Elixir.Scout',
+                        'Elixir.Server','Elixir.Util']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.

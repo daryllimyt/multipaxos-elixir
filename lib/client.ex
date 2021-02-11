@@ -35,7 +35,7 @@ defp next config, client_num, replicas, sent, quorum do
 
     sent = sent + 1
     cmd = { self(), sent, transaction }
-
+    send config.monitor, { :CLIENT_REQUEST, client_num }
     for r <- 1..quorum do
         replica = Enum.at replicas, rem(sent+r, config.n_servers)
         send replica, { :CLIENT_REQUEST, cmd }
