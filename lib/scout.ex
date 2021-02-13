@@ -1,6 +1,10 @@
+# Daryl Lim (dyl17) and Marian Lukac (ml11018)
+
 defmodule Scout do
 
     def start config, leader_pid, acceptors, ballot_num  do 
+        config = Configuration.node_id(config, "Scout", config.node_num)
+        Debug.starting(config)
         parameters = %{
             leader_pid: leader_pid,
             acceptors: acceptors,
@@ -36,7 +40,9 @@ defmodule Scout do
                     send params.leader_pid, {:preempted, b}
                 end
         end
+        Debug.letter(config, "[SCOUT: #{config.node_num}] Despawned.")
         send config.monitor, { :SCOUT_FINISHED, config.node_num } 
+        exit(:normal)
     end #next
 
 end #Scout

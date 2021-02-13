@@ -1,5 +1,9 @@
+# Daryl Lim (dyl17) and Marian Lukac (ml11018)
+
 defmodule Commander do 
     def start config, leader_pid, acceptors, replicas, {b, s, c} do
+        config = Configuration.node_id(config, "Commander", config.node_num)
+        Debug.starting(config)
         parameters = %{
             leader_pid: leader_pid,
             acceptors: acceptors,
@@ -40,7 +44,9 @@ defmodule Commander do
                     send params.leader_pid, {:preempted, b}
                 end
         end
+        Debug.letter(config, "[Commander: #{config.node_num}] Despawned.")
         send config.monitor, { :COMMANDER_FINISHED, config.node_num } 
+        exit(:normal)
     end #next
 
 end #Commander

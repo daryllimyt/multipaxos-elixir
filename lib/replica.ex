@@ -1,3 +1,5 @@
+# Daryl Lim (dyl17) and Marian Lukac (ml11018)
+
 defmodule Replica do
 
     # A replica runs in an infinite loop, receiving messages. 

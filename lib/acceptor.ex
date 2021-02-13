@@ -1,3 +1,5 @@
+# Daryl Lim (dyl17) and Marian Lukac (ml11018)
+
 defmodule Acceptor do
 
     def start config do
@@ -25,9 +27,7 @@ defmodule Acceptor do
                 if b == ballot_num do
                     accepted = MapSet.put(accepted, {b, s, c})
                     next config, accepted, ballot_num
-                end
-                
-                
+                end 
         end
         next config, accepted, ballot_num
     end # next

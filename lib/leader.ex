@@ -1,6 +1,10 @@
+# Daryl Lim (dyl17) and Marian Lukac (ml11018)
+
 defmodule Leader do
 
     def start config, leader_num  do
+        config = Configuration.node_id(config, "Leader", config.node_num)
+        Debug.starting(config)
         receive do
             {:BIND, acceptors, replicas} ->
                     parameters = %{
@@ -16,7 +20,7 @@ defmodule Leader do
         end
     end
 
-    defp next config, params do
+    defp next config, params, preempted \\0 do
         receive do
             {:propose, s, c} ->
                 Debug.letter(config, "[LEADER: #{config.node_num}] Proposal for slot #{s} containing command #{inspect c} accepted.")
@@ -45,9 +49,10 @@ defmodule Leader do
             {:preempted, {r,l}} ->
                 if Util.ballot_gt({r,l},params.ballot_num) do
                     params = %{params | :active => false , :ballot_num => {r+1, config.node_num}}
+                    Process.sleep(preempted*100)
                     send config.monitor, { :SCOUT_SPAWNED, config.node_num }
                     spawn Scout, :start, [ config, self(), params.acceptors, params.ballot_num]
-                    next config, params
+                    next config, params, (preempted+1)
                 end
         end
         

@@ -1,6 +1,4 @@
-
-# distributed algorithms, n.dulay 29 jan 2021
-# coursework, paxos made moderately complex
+# Daryl Lim (dyl17) and Marian Lukac (ml11018)
 
 defmodule Configuration do
 
@@ -18,7 +16,7 @@ end
 
 def params :default do
   %{
-  max_requests: 10,		# max requests each client will make
+  max_requests: 1,		# max requests each client will make
   client_sleep: 2,		# time (ms) to sleep before sending new request
   client_stop:  60_000,		# time (ms) to stop sending further requests
   client_send:	:broadcast,	# :round_robin, :quorum or :broadcast
@@ -29,6 +27,66 @@ def params :default do
   print_after:  1_000,		# print transaction log summary every print_after msecs
 
   crash_server: %{},
+  # For replicas, max num additional commands that can be proposed
+  window_size: 100
+  }
+end
+
+# -----------------------------------------------------------------------------
+
+def params :normal_load do
+  %{
+  max_requests: 50,		# max requests each client will make
+  client_sleep: 2,		# time (ms) to sleep before sending new request
+  client_stop:  60_000,		# time (ms) to stop sending further requests
+  client_send:	:broadcast,	# :round_robin, :quorum or :broadcast
+
+  n_accounts:   100,		# number of active bank accounts
+  max_amount:   1_000,		# max amount moved between accounts
+
+  print_after:  1_000,		# print transaction log summary every print_after msecs
+
+  crash_server: %{},
+  # For replicas, max num additional commands that can be proposed
+  window_size: 100
+  }
+end
+
+# -----------------------------------------------------------------------------
+
+def params :crash_1 do
+  %{
+  max_requests: 100,		# max requests each client will make
+  client_sleep: 2,		# time (ms) to sleep before sending new request
+  client_stop:  60_000,		# time (ms) to stop sending further requests
+  client_send:	:broadcast,	# :round_robin, :quorum or :broadcast
+
+  n_accounts:   100,		# number of active bank accounts
+  max_amount:   1_000,		# max amount moved between accounts
+
+  print_after:  1_000,		# print transaction log summary every print_after msecs
+
+  crash_server: %{1=> 1_000},
+  # For replicas, max num additional commands that can be proposed
+  window_size: 100
+  }
+end
+
+# -----------------------------------------------------------------------------
+
+def params :crash_4 do
+  %{
+  max_requests: 150,		# max requests each client will make
+  client_sleep: 2,		# time (ms) to sleep before sending new request
+  client_stop:  60_000,		# time (ms) to stop sending further requests
+  client_send:	:broadcast,	# :round_robin, :quorum or :broadcast
+
+  n_accounts:   100,		# number of active bank accounts
+  max_amount:   1_000,		# max amount moved between accounts
+
+  print_after:  1_000,		# print transaction log summary every print_after msecs
+
+  crash_server: %{1=> 5_000, 2=> 7_000, 3=> 9_000,  4=> 9_000},
   # For replicas, max num additional commands that can be proposed
   window_size: 100
   }

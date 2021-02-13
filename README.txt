@@ -1,6 +1,5 @@
 
-# distributed algorithms, n.dulay, 29 jan 21
-# coursework, paxos made moderately complex
+# Daryl Lim (dyl17) and Marian Lukac (ml11018)
 
 # make options for Multipaxos
 

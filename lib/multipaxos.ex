@@ -1,6 +1,4 @@
-
-# distributed algorithms, n.dulay 29 jan 2021
-# coursework, paxos made moderately complex
+# Daryl Lim (dyl17) and Marian Lukac (ml11018)
 
 defmodule Multipaxos do
 
@@ -34,7 +32,6 @@ defp start(:cluster_start, config) do
 
   for replica <- replicas, do: send replica, { :BIND, leaders }
   for leader  <- leaders,  do: send leader,  { :BIND, acceptors, replicas }
-
   for client_num <- 1 .. config.n_clients do
     Node.spawn :'client#{client_num}_#{config.node_suffix}', Client, :start,
                [config, client_num, replicas]
