@@ -2,8 +2,8 @@
 
 SERVERS  = 5
 CLIENTS  = 5
-CONFIG   = normal_load
-DEBUG    = 0
+CONFIG   = default
+DEBUG    = 4
 MAX_TIME = 20000
 
 START    = Multipaxos.start

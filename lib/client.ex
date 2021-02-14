@@ -24,6 +24,7 @@ defp next config, client_num, replicas, sent, quorum do
   :CLIENT_STOP ->
     IO.puts "  Client #{client_num} going to sleep, sent = #{sent}"
     Process.sleep :infinity
+    
 
   after config.client_sleep ->
     account1 = Enum.random 1 .. config.n_accounts

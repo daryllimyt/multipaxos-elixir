@@ -1,0 +1,2781 @@
+mix compile
+Compiling 1 file (.ex)
+time = 1      db updates done = []
+time = 1       client requests seen = []
+time = 1      total seen = 0 max lag = 0
+time = 1      scouts spawned = []
+time = 1      scouts finished = []
+time = 1      commanders spawned = []
+time = 1      commanders finished = []
+
+time = 2      db updates done = []
+time = 2       client requests seen = []
+time = 2      total seen = 0 max lag = 0
+time = 2      scouts spawned = []
+time = 2      scouts finished = []
+time = 2      commanders spawned = []
+time = 2      commanders finished = []
+
+time = 3      db updates done = []
+time = 3       client requests seen = []
+time = 3      total seen = 0 max lag = 0
+time = 3      scouts spawned = []
+time = 3      scouts finished = []
+time = 3      commanders spawned = []
+time = 3      commanders finished = []
+
+time = 4      db updates done = []
+time = 4       client requests seen = []
+time = 4      total seen = 0 max lag = 0
+time = 4      scouts spawned = []
+time = 4      scouts finished = []
+time = 4      commanders spawned = []
+time = 4      commanders finished = []
+
+time = 5      db updates done = []
+time = 5       client requests seen = []
+time = 5      total seen = 0 max lag = 0
+time = 5      scouts spawned = []
+time = 5      scouts finished = []
+time = 5      commanders spawned = []
+time = 5      commanders finished = []
+
+time = 6      db updates done = []
+time = 6       client requests seen = []
+time = 6      total seen = 0 max lag = 0
+time = 6      scouts spawned = [{1, 1}]
+time = 6      scouts finished = []
+time = 6      commanders spawned = []
+time = 6      commanders finished = []
+
+time = 7      db updates done = []
+time = 7       client requests seen = []
+time = 7      total seen = 0 max lag = 0
+time = 7      scouts spawned = [{1, 1}]
+time = 7      scouts finished = []
+time = 7      commanders spawned = []
+time = 7      commanders finished = []
+
+time = 8      db updates done = []
+time = 8       client requests seen = []
+time = 8      total seen = 0 max lag = 0
+time = 8      scouts spawned = [{1, 1}]
+time = 8      scouts finished = []
+time = 8      commanders spawned = []
+time = 8      commanders finished = []
+
+  Client 1 going to sleep, sent = 1
+time = 9      db updates done = []
+time = 9       client requests seen = [{1, 1}]
+time = 9      total seen = 1 max lag = 1
+time = 9      scouts spawned = [{1, 1}]
+time = 9      scouts finished = [{1, 1}]
+time = 9      commanders spawned = []
+time = 9      commanders finished = []
+
+time = 10      db updates done = []
+time = 10       client requests seen = [{1, 1}]
+time = 10      total seen = 1 max lag = 1
+time = 10      scouts spawned = [{1, 1}]
+time = 10      scouts finished = [{1, 1}]
+time = 10      commanders spawned = []
+time = 10      commanders finished = []
+
+time = 11      db updates done = []
+time = 11       client requests seen = [{1, 1}]
+time = 11      total seen = 1 max lag = 1
+time = 11      scouts spawned = [{1, 1}]
+time = 11      scouts finished = [{1, 1}]
+time = 11      commanders spawned = []
+time = 11      commanders finished = []
+
+time = 12      db updates done = []
+time = 12       client requests seen = [{1, 1}]
+time = 12      total seen = 1 max lag = 1
+time = 12      scouts spawned = [{1, 1}]
+time = 12      scouts finished = [{1, 1}]
+time = 12      commanders spawned = []
+time = 12      commanders finished = []
+
+time = 13      db updates done = [{1, 1}]
+time = 13       client requests seen = [{1, 1}]
+time = 13      total seen = 1 max lag = 0
+time = 13      scouts spawned = [{1, 1}]
+time = 13      scouts finished = [{1, 1}]
+time = 13      commanders spawned = [{1, 1}]
+time = 13      commanders finished = [{1, 1}]
+
+time = 14      db updates done = [{1, 1}]
+time = 14       client requests seen = [{1, 1}]
+time = 14      total seen = 1 max lag = 0
+time = 14      scouts spawned = [{1, 1}]
+time = 14      scouts finished = [{1, 1}]
+time = 14      commanders spawned = [{1, 1}]
+time = 14      commanders finished = [{1, 1}]
+
+time = 15      db updates done = [{1, 1}]
+time = 15       client requests seen = [{1, 1}]
+time = 15      total seen = 1 max lag = 0
+time = 15      scouts spawned = [{1, 1}]
+time = 15      scouts finished = [{1, 1}]
+time = 15      commanders spawned = [{1, 1}]
+time = 15      commanders finished = [{1, 1}]
+
+time = 16      db updates done = [{1, 1}]
+time = 16       client requests seen = [{1, 1}]
+time = 16      total seen = 1 max lag = 0
+time = 16      scouts spawned = [{1, 1}]
+time = 16      scouts finished = [{1, 1}]
+time = 16      commanders spawned = [{1, 1}]
+time = 16      commanders finished = [{1, 1}]
+
+time = 17      db updates done = [{1, 1}]
+time = 17       client requests seen = [{1, 1}]
+time = 17      total seen = 1 max lag = 0
+time = 17      scouts spawned = [{1, 1}]
+time = 17      scouts finished = [{1, 1}]
+time = 17      commanders spawned = [{1, 1}]
+time = 17      commanders finished = [{1, 1}]
+
+time = 18      db updates done = [{1, 1}]
+time = 18       client requests seen = [{1, 1}]
+time = 18      total seen = 1 max lag = 0
+time = 18      scouts spawned = [{1, 1}]
+time = 18      scouts finished = [{1, 1}]
+time = 18      commanders spawned = [{1, 1}]
+time = 18      commanders finished = [{1, 1}]
+
+time = 19      db updates done = [{1, 1}]
+time = 19       client requests seen = [{1, 1}]
+time = 19      total seen = 1 max lag = 0
+time = 19      scouts spawned = [{1, 1}]
+time = 19      scouts finished = [{1, 1}]
+time = 19      commanders spawned = [{1, 1}]
+time = 19      commanders finished = [{1, 1}]
+
+time = 20      db updates done = [{1, 1}]
+time = 20       client requests seen = [{1, 1}]
+time = 20      total seen = 1 max lag = 0
+time = 20      scouts spawned = [{1, 1}]
+time = 20      scouts finished = [{1, 1}]
+time = 20      commanders spawned = [{1, 1}]
+time = 20      commanders finished = [{1, 1}]
+
+time = 21      db updates done = [{1, 1}]
+time = 21       client requests seen = [{1, 1}]
+time = 21      total seen = 1 max lag = 0
+time = 21      scouts spawned = [{1, 1}]
+time = 21      scouts finished = [{1, 1}]
+time = 21      commanders spawned = [{1, 1}]
+time = 21      commanders finished = [{1, 1}]
+
+time = 22      db updates done = [{1, 1}]
+time = 22       client requests seen = [{1, 1}]
+time = 22      total seen = 1 max lag = 0
+time = 22      scouts spawned = [{1, 1}]
+time = 22      scouts finished = [{1, 1}]
+time = 22      commanders spawned = [{1, 1}]
+time = 22      commanders finished = [{1, 1}]
+
+time = 23      db updates done = [{1, 1}]
+time = 23       client requests seen = [{1, 1}]
+time = 23      total seen = 1 max lag = 0
+time = 23      scouts spawned = [{1, 1}]
+time = 23      scouts finished = [{1, 1}]
+time = 23      commanders spawned = [{1, 1}]
+time = 23      commanders finished = [{1, 1}]
+
+time = 24      db updates done = [{1, 1}]
+time = 24       client requests seen = [{1, 1}]
+time = 24      total seen = 1 max lag = 0
+time = 24      scouts spawned = [{1, 1}]
+time = 24      scouts finished = [{1, 1}]
+time = 24      commanders spawned = [{1, 1}]
+time = 24      commanders finished = [{1, 1}]
+
+time = 25      db updates done = [{1, 1}]
+time = 25       client requests seen = [{1, 1}]
+time = 25      total seen = 1 max lag = 0
+time = 25      scouts spawned = [{1, 1}]
+time = 25      scouts finished = [{1, 1}]
+time = 25      commanders spawned = [{1, 1}]
+time = 25      commanders finished = [{1, 1}]
+
+time = 26      db updates done = [{1, 1}]
+time = 26       client requests seen = [{1, 1}]
+time = 26      total seen = 1 max lag = 0
+time = 26      scouts spawned = [{1, 1}]
+time = 26      scouts finished = [{1, 1}]
+time = 26      commanders spawned = [{1, 1}]
+time = 26      commanders finished = [{1, 1}]
+
+time = 27      db updates done = [{1, 1}]
+time = 27       client requests seen = [{1, 1}]
+time = 27      total seen = 1 max lag = 0
+time = 27      scouts spawned = [{1, 1}]
+time = 27      scouts finished = [{1, 1}]
+time = 27      commanders spawned = [{1, 1}]
+time = 27      commanders finished = [{1, 1}]
+
+time = 28      db updates done = [{1, 1}]
+time = 28       client requests seen = [{1, 1}]
+time = 28      total seen = 1 max lag = 0
+time = 28      scouts spawned = [{1, 1}]
+time = 28      scouts finished = [{1, 1}]
+time = 28      commanders spawned = [{1, 1}]
+time = 28      commanders finished = [{1, 1}]
+
+time = 29      db updates done = [{1, 1}]
+time = 29       client requests seen = [{1, 1}]
+time = 29      total seen = 1 max lag = 0
+time = 29      scouts spawned = [{1, 1}]
+time = 29      scouts finished = [{1, 1}]
+time = 29      commanders spawned = [{1, 1}]
+time = 29      commanders finished = [{1, 1}]
+
+time = 30      db updates done = [{1, 1}]
+time = 30       client requests seen = [{1, 1}]
+time = 30      total seen = 1 max lag = 0
+time = 30      scouts spawned = [{1, 1}]
+time = 30      scouts finished = [{1, 1}]
+time = 30      commanders spawned = [{1, 1}]
+time = 30      commanders finished = [{1, 1}]
+
+time = 31      db updates done = [{1, 1}]
+time = 31       client requests seen = [{1, 1}]
+time = 31      total seen = 1 max lag = 0
+time = 31      scouts spawned = [{1, 1}]
+time = 31      scouts finished = [{1, 1}]
+time = 31      commanders spawned = [{1, 1}]
+time = 31      commanders finished = [{1, 1}]
+
+time = 32      db updates done = [{1, 1}]
+time = 32       client requests seen = [{1, 1}]
+time = 32      total seen = 1 max lag = 0
+time = 32      scouts spawned = [{1, 1}]
+time = 32      scouts finished = [{1, 1}]
+time = 32      commanders spawned = [{1, 1}]
+time = 32      commanders finished = [{1, 1}]
+
+time = 33      db updates done = [{1, 1}]
+time = 33       client requests seen = [{1, 1}]
+time = 33      total seen = 1 max lag = 0
+time = 33      scouts spawned = [{1, 1}]
+time = 33      scouts finished = [{1, 1}]
+time = 33      commanders spawned = [{1, 1}]
+time = 33      commanders finished = [{1, 1}]
+
+time = 34      db updates done = [{1, 1}]
+time = 34       client requests seen = [{1, 1}]
+time = 34      total seen = 1 max lag = 0
+time = 34      scouts spawned = [{1, 1}]
+time = 34      scouts finished = [{1, 1}]
+time = 34      commanders spawned = [{1, 1}]
+time = 34      commanders finished = [{1, 1}]
+
+time = 35      db updates done = [{1, 1}]
+time = 35       client requests seen = [{1, 1}]
+time = 35      total seen = 1 max lag = 0
+time = 35      scouts spawned = [{1, 1}]
+time = 35      scouts finished = [{1, 1}]
+time = 35      commanders spawned = [{1, 1}]
+time = 35      commanders finished = [{1, 1}]
+
+time = 36      db updates done = [{1, 1}]
+time = 36       client requests seen = [{1, 1}]
+time = 36      total seen = 1 max lag = 0
+time = 36      scouts spawned = [{1, 1}]
+time = 36      scouts finished = [{1, 1}]
+time = 36      commanders spawned = [{1, 1}]
+time = 36      commanders finished = [{1, 1}]
+
+time = 37      db updates done = [{1, 1}]
+time = 37       client requests seen = [{1, 1}]
+time = 37      total seen = 1 max lag = 0
+time = 37      scouts spawned = [{1, 1}]
+time = 37      scouts finished = [{1, 1}]
+time = 37      commanders spawned = [{1, 1}]
+time = 37      commanders finished = [{1, 1}]
+
+time = 38      db updates done = [{1, 1}]
+time = 38       client requests seen = [{1, 1}]
+time = 38      total seen = 1 max lag = 0
+time = 38      scouts spawned = [{1, 1}]
+time = 38      scouts finished = [{1, 1}]
+time = 38      commanders spawned = [{1, 1}]
+time = 38      commanders finished = [{1, 1}]
+
+time = 39      db updates done = [{1, 1}]
+time = 39       client requests seen = [{1, 1}]
+time = 39      total seen = 1 max lag = 0
+time = 39      scouts spawned = [{1, 1}]
+time = 39      scouts finished = [{1, 1}]
+time = 39      commanders spawned = [{1, 1}]
+time = 39      commanders finished = [{1, 1}]
+
+time = 40      db updates done = [{1, 1}]
+time = 40       client requests seen = [{1, 1}]
+time = 40      total seen = 1 max lag = 0
+time = 40      scouts spawned = [{1, 1}]
+time = 40      scouts finished = [{1, 1}]
+time = 40      commanders spawned = [{1, 1}]
+time = 40      commanders finished = [{1, 1}]
+
+time = 41      db updates done = [{1, 1}]
+time = 41       client requests seen = [{1, 1}]
+time = 41      total seen = 1 max lag = 0
+time = 41      scouts spawned = [{1, 1}]
+time = 41      scouts finished = [{1, 1}]
+time = 41      commanders spawned = [{1, 1}]
+time = 41      commanders finished = [{1, 1}]
+
+time = 42      db updates done = [{1, 1}]
+time = 42       client requests seen = [{1, 1}]
+time = 42      total seen = 1 max lag = 0
+time = 42      scouts spawned = [{1, 1}]
+time = 42      scouts finished = [{1, 1}]
+time = 42      commanders spawned = [{1, 1}]
+time = 42      commanders finished = [{1, 1}]
+
+time = 43      db updates done = [{1, 1}]
+time = 43       client requests seen = [{1, 1}]
+time = 43      total seen = 1 max lag = 0
+time = 43      scouts spawned = [{1, 1}]
+time = 43      scouts finished = [{1, 1}]
+time = 43      commanders spawned = [{1, 1}]
+time = 43      commanders finished = [{1, 1}]
+
+time = 44      db updates done = [{1, 1}]
+time = 44       client requests seen = [{1, 1}]
+time = 44      total seen = 1 max lag = 0
+time = 44      scouts spawned = [{1, 1}]
+time = 44      scouts finished = [{1, 1}]
+time = 44      commanders spawned = [{1, 1}]
+time = 44      commanders finished = [{1, 1}]
+
+time = 45      db updates done = [{1, 1}]
+time = 45       client requests seen = [{1, 1}]
+time = 45      total seen = 1 max lag = 0
+time = 45      scouts spawned = [{1, 1}]
+time = 45      scouts finished = [{1, 1}]
+time = 45      commanders spawned = [{1, 1}]
+time = 45      commanders finished = [{1, 1}]
+
+time = 46      db updates done = [{1, 1}]
+time = 46       client requests seen = [{1, 1}]
+time = 46      total seen = 1 max lag = 0
+time = 46      scouts spawned = [{1, 1}]
+time = 46      scouts finished = [{1, 1}]
+time = 46      commanders spawned = [{1, 1}]
+time = 46      commanders finished = [{1, 1}]
+
+time = 47      db updates done = [{1, 1}]
+time = 47       client requests seen = [{1, 1}]
+time = 47      total seen = 1 max lag = 0
+time = 47      scouts spawned = [{1, 1}]
+time = 47      scouts finished = [{1, 1}]
+time = 47      commanders spawned = [{1, 1}]
+time = 47      commanders finished = [{1, 1}]
+
+time = 48      db updates done = [{1, 1}]
+time = 48       client requests seen = [{1, 1}]
+time = 48      total seen = 1 max lag = 0
+time = 48      scouts spawned = [{1, 1}]
+time = 48      scouts finished = [{1, 1}]
+time = 48      commanders spawned = [{1, 1}]
+time = 48      commanders finished = [{1, 1}]
+
+time = 49      db updates done = [{1, 1}]
+time = 49       client requests seen = [{1, 1}]
+time = 49      total seen = 1 max lag = 0
+time = 49      scouts spawned = [{1, 1}]
+time = 49      scouts finished = [{1, 1}]
+time = 49      commanders spawned = [{1, 1}]
+time = 49      commanders finished = [{1, 1}]
+
+time = 50      db updates done = [{1, 1}]
+time = 50       client requests seen = [{1, 1}]
+time = 50      total seen = 1 max lag = 0
+time = 50      scouts spawned = [{1, 1}]
+time = 50      scouts finished = [{1, 1}]
+time = 50      commanders spawned = [{1, 1}]
+time = 50      commanders finished = [{1, 1}]
+
+time = 51      db updates done = [{1, 1}]
+time = 51       client requests seen = [{1, 1}]
+time = 51      total seen = 1 max lag = 0
+time = 51      scouts spawned = [{1, 1}]
+time = 51      scouts finished = [{1, 1}]
+time = 51      commanders spawned = [{1, 1}]
+time = 51      commanders finished = [{1, 1}]
+
+time = 52      db updates done = [{1, 1}]
+time = 52       client requests seen = [{1, 1}]
+time = 52      total seen = 1 max lag = 0
+time = 52      scouts spawned = [{1, 1}]
+time = 52      scouts finished = [{1, 1}]
+time = 52      commanders spawned = [{1, 1}]
+time = 52      commanders finished = [{1, 1}]
+
+time = 53      db updates done = [{1, 1}]
+time = 53       client requests seen = [{1, 1}]
+time = 53      total seen = 1 max lag = 0
+time = 53      scouts spawned = [{1, 1}]
+time = 53      scouts finished = [{1, 1}]
+time = 53      commanders spawned = [{1, 1}]
+time = 53      commanders finished = [{1, 1}]
+
+time = 54      db updates done = [{1, 1}]
+time = 54       client requests seen = [{1, 1}]
+time = 54      total seen = 1 max lag = 0
+time = 54      scouts spawned = [{1, 1}]
+time = 54      scouts finished = [{1, 1}]
+time = 54      commanders spawned = [{1, 1}]
+time = 54      commanders finished = [{1, 1}]
+
+time = 55      db updates done = [{1, 1}]
+time = 55       client requests seen = [{1, 1}]
+time = 55      total seen = 1 max lag = 0
+time = 55      scouts spawned = [{1, 1}]
+time = 55      scouts finished = [{1, 1}]
+time = 55      commanders spawned = [{1, 1}]
+time = 55      commanders finished = [{1, 1}]
+
+time = 56      db updates done = [{1, 1}]
+time = 56       client requests seen = [{1, 1}]
+time = 56      total seen = 1 max lag = 0
+time = 56      scouts spawned = [{1, 1}]
+time = 56      scouts finished = [{1, 1}]
+time = 56      commanders spawned = [{1, 1}]
+time = 56      commanders finished = [{1, 1}]
+
+time = 57      db updates done = [{1, 1}]
+time = 57       client requests seen = [{1, 1}]
+time = 57      total seen = 1 max lag = 0
+time = 57      scouts spawned = [{1, 1}]
+time = 57      scouts finished = [{1, 1}]
+time = 57      commanders spawned = [{1, 1}]
+time = 57      commanders finished = [{1, 1}]
+
+time = 58      db updates done = [{1, 1}]
+time = 58       client requests seen = [{1, 1}]
+time = 58      total seen = 1 max lag = 0
+time = 58      scouts spawned = [{1, 1}]
+time = 58      scouts finished = [{1, 1}]
+time = 58      commanders spawned = [{1, 1}]
+time = 58      commanders finished = [{1, 1}]
+
+time = 59      db updates done = [{1, 1}]
+time = 59       client requests seen = [{1, 1}]
+time = 59      total seen = 1 max lag = 0
+time = 59      scouts spawned = [{1, 1}]
+time = 59      scouts finished = [{1, 1}]
+time = 59      commanders spawned = [{1, 1}]
+time = 59      commanders finished = [{1, 1}]
+
+time = 60      db updates done = [{1, 1}]
+time = 60       client requests seen = [{1, 1}]
+time = 60      total seen = 1 max lag = 0
+time = 60      scouts spawned = [{1, 1}]
+time = 60      scouts finished = [{1, 1}]
+time = 60      commanders spawned = [{1, 1}]
+time = 60      commanders finished = [{1, 1}]
+
+time = 61      db updates done = [{1, 1}]
+time = 61       client requests seen = [{1, 1}]
+time = 61      total seen = 1 max lag = 0
+time = 61      scouts spawned = [{1, 1}]
+time = 61      scouts finished = [{1, 1}]
+time = 61      commanders spawned = [{1, 1}]
+time = 61      commanders finished = [{1, 1}]
+
+time = 62      db updates done = [{1, 1}]
+time = 62       client requests seen = [{1, 1}]
+time = 62      total seen = 1 max lag = 0
+time = 62      scouts spawned = [{1, 1}]
+time = 62      scouts finished = [{1, 1}]
+time = 62      commanders spawned = [{1, 1}]
+time = 62      commanders finished = [{1, 1}]
+
+time = 63      db updates done = [{1, 1}]
+time = 63       client requests seen = [{1, 1}]
+time = 63      total seen = 1 max lag = 0
+time = 63      scouts spawned = [{1, 1}]
+time = 63      scouts finished = [{1, 1}]
+time = 63      commanders spawned = [{1, 1}]
+time = 63      commanders finished = [{1, 1}]
+
+time = 64      db updates done = [{1, 1}]
+time = 64       client requests seen = [{1, 1}]
+time = 64      total seen = 1 max lag = 0
+time = 64      scouts spawned = [{1, 1}]
+time = 64      scouts finished = [{1, 1}]
+time = 64      commanders spawned = [{1, 1}]
+time = 64      commanders finished = [{1, 1}]
+
+time = 65      db updates done = [{1, 1}]
+time = 65       client requests seen = [{1, 1}]
+time = 65      total seen = 1 max lag = 0
+time = 65      scouts spawned = [{1, 1}]
+time = 65      scouts finished = [{1, 1}]
+time = 65      commanders spawned = [{1, 1}]
+time = 65      commanders finished = [{1, 1}]
+
+time = 66      db updates done = [{1, 1}]
+time = 66       client requests seen = [{1, 1}]
+time = 66      total seen = 1 max lag = 0
+time = 66      scouts spawned = [{1, 1}]
+time = 66      scouts finished = [{1, 1}]
+time = 66      commanders spawned = [{1, 1}]
+time = 66      commanders finished = [{1, 1}]
+
+time = 67      db updates done = [{1, 1}]
+time = 67       client requests seen = [{1, 1}]
+time = 67      total seen = 1 max lag = 0
+time = 67      scouts spawned = [{1, 1}]
+time = 67      scouts finished = [{1, 1}]
+time = 67      commanders spawned = [{1, 1}]
+time = 67      commanders finished = [{1, 1}]
+
+time = 68      db updates done = [{1, 1}]
+time = 68       client requests seen = [{1, 1}]
+time = 68      total seen = 1 max lag = 0
+time = 68      scouts spawned = [{1, 1}]
+time = 68      scouts finished = [{1, 1}]
+time = 68      commanders spawned = [{1, 1}]
+time = 68      commanders finished = [{1, 1}]
+
+time = 69      db updates done = [{1, 1}]
+time = 69       client requests seen = [{1, 1}]
+time = 69      total seen = 1 max lag = 0
+time = 69      scouts spawned = [{1, 1}]
+time = 69      scouts finished = [{1, 1}]
+time = 69      commanders spawned = [{1, 1}]
+time = 69      commanders finished = [{1, 1}]
+
+time = 70      db updates done = [{1, 1}]
+time = 70       client requests seen = [{1, 1}]
+time = 70      total seen = 1 max lag = 0
+time = 70      scouts spawned = [{1, 1}]
+time = 70      scouts finished = [{1, 1}]
+time = 70      commanders spawned = [{1, 1}]
+time = 70      commanders finished = [{1, 1}]
+
+time = 71      db updates done = [{1, 1}]
+time = 71       client requests seen = [{1, 1}]
+time = 71      total seen = 1 max lag = 0
+time = 71      scouts spawned = [{1, 1}]
+time = 71      scouts finished = [{1, 1}]
+time = 71      commanders spawned = [{1, 1}]
+time = 71      commanders finished = [{1, 1}]
+
+time = 72      db updates done = [{1, 1}]
+time = 72       client requests seen = [{1, 1}]
+time = 72      total seen = 1 max lag = 0
+time = 72      scouts spawned = [{1, 1}]
+time = 72      scouts finished = [{1, 1}]
+time = 72      commanders spawned = [{1, 1}]
+time = 72      commanders finished = [{1, 1}]
+
+time = 73      db updates done = [{1, 1}]
+time = 73       client requests seen = [{1, 1}]
+time = 73      total seen = 1 max lag = 0
+time = 73      scouts spawned = [{1, 1}]
+time = 73      scouts finished = [{1, 1}]
+time = 73      commanders spawned = [{1, 1}]
+time = 73      commanders finished = [{1, 1}]
+
+time = 74      db updates done = [{1, 1}]
+time = 74       client requests seen = [{1, 1}]
+time = 74      total seen = 1 max lag = 0
+time = 74      scouts spawned = [{1, 1}]
+time = 74      scouts finished = [{1, 1}]
+time = 74      commanders spawned = [{1, 1}]
+time = 74      commanders finished = [{1, 1}]
+
+time = 75      db updates done = [{1, 1}]
+time = 75       client requests seen = [{1, 1}]
+time = 75      total seen = 1 max lag = 0
+time = 75      scouts spawned = [{1, 1}]
+time = 75      scouts finished = [{1, 1}]
+time = 75      commanders spawned = [{1, 1}]
+time = 75      commanders finished = [{1, 1}]
+
+time = 76      db updates done = [{1, 1}]
+time = 76       client requests seen = [{1, 1}]
+time = 76      total seen = 1 max lag = 0
+time = 76      scouts spawned = [{1, 1}]
+time = 76      scouts finished = [{1, 1}]
+time = 76      commanders spawned = [{1, 1}]
+time = 76      commanders finished = [{1, 1}]
+
+time = 77      db updates done = [{1, 1}]
+time = 77       client requests seen = [{1, 1}]
+time = 77      total seen = 1 max lag = 0
+time = 77      scouts spawned = [{1, 1}]
+time = 77      scouts finished = [{1, 1}]
+time = 77      commanders spawned = [{1, 1}]
+time = 77      commanders finished = [{1, 1}]
+
+time = 78      db updates done = [{1, 1}]
+time = 78       client requests seen = [{1, 1}]
+time = 78      total seen = 1 max lag = 0
+time = 78      scouts spawned = [{1, 1}]
+time = 78      scouts finished = [{1, 1}]
+time = 78      commanders spawned = [{1, 1}]
+time = 78      commanders finished = [{1, 1}]
+
+time = 79      db updates done = [{1, 1}]
+time = 79       client requests seen = [{1, 1}]
+time = 79      total seen = 1 max lag = 0
+time = 79      scouts spawned = [{1, 1}]
+time = 79      scouts finished = [{1, 1}]
+time = 79      commanders spawned = [{1, 1}]
+time = 79      commanders finished = [{1, 1}]
+
+time = 80      db updates done = [{1, 1}]
+time = 80       client requests seen = [{1, 1}]
+time = 80      total seen = 1 max lag = 0
+time = 80      scouts spawned = [{1, 1}]
+time = 80      scouts finished = [{1, 1}]
+time = 80      commanders spawned = [{1, 1}]
+time = 80      commanders finished = [{1, 1}]
+
+time = 81      db updates done = [{1, 1}]
+time = 81       client requests seen = [{1, 1}]
+time = 81      total seen = 1 max lag = 0
+time = 81      scouts spawned = [{1, 1}]
+time = 81      scouts finished = [{1, 1}]
+time = 81      commanders spawned = [{1, 1}]
+time = 81      commanders finished = [{1, 1}]
+
+time = 82      db updates done = [{1, 1}]
+time = 82       client requests seen = [{1, 1}]
+time = 82      total seen = 1 max lag = 0
+time = 82      scouts spawned = [{1, 1}]
+time = 82      scouts finished = [{1, 1}]
+time = 82      commanders spawned = [{1, 1}]
+time = 82      commanders finished = [{1, 1}]
+
+time = 83      db updates done = [{1, 1}]
+time = 83       client requests seen = [{1, 1}]
+time = 83      total seen = 1 max lag = 0
+time = 83      scouts spawned = [{1, 1}]
+time = 83      scouts finished = [{1, 1}]
+time = 83      commanders spawned = [{1, 1}]
+time = 83      commanders finished = [{1, 1}]
+
+time = 84      db updates done = [{1, 1}]
+time = 84       client requests seen = [{1, 1}]
+time = 84      total seen = 1 max lag = 0
+time = 84      scouts spawned = [{1, 1}]
+time = 84      scouts finished = [{1, 1}]
+time = 84      commanders spawned = [{1, 1}]
+time = 84      commanders finished = [{1, 1}]
+
+time = 85      db updates done = [{1, 1}]
+time = 85       client requests seen = [{1, 1}]
+time = 85      total seen = 1 max lag = 0
+time = 85      scouts spawned = [{1, 1}]
+time = 85      scouts finished = [{1, 1}]
+time = 85      commanders spawned = [{1, 1}]
+time = 85      commanders finished = [{1, 1}]
+
+time = 86      db updates done = [{1, 1}]
+time = 86       client requests seen = [{1, 1}]
+time = 86      total seen = 1 max lag = 0
+time = 86      scouts spawned = [{1, 1}]
+time = 86      scouts finished = [{1, 1}]
+time = 86      commanders spawned = [{1, 1}]
+time = 86      commanders finished = [{1, 1}]
+
+time = 87      db updates done = [{1, 1}]
+time = 87       client requests seen = [{1, 1}]
+time = 87      total seen = 1 max lag = 0
+time = 87      scouts spawned = [{1, 1}]
+time = 87      scouts finished = [{1, 1}]
+time = 87      commanders spawned = [{1, 1}]
+time = 87      commanders finished = [{1, 1}]
+
+time = 88      db updates done = [{1, 1}]
+time = 88       client requests seen = [{1, 1}]
+time = 88      total seen = 1 max lag = 0
+time = 88      scouts spawned = [{1, 1}]
+time = 88      scouts finished = [{1, 1}]
+time = 88      commanders spawned = [{1, 1}]
+time = 88      commanders finished = [{1, 1}]
+
+time = 89      db updates done = [{1, 1}]
+time = 89       client requests seen = [{1, 1}]
+time = 89      total seen = 1 max lag = 0
+time = 89      scouts spawned = [{1, 1}]
+time = 89      scouts finished = [{1, 1}]
+time = 89      commanders spawned = [{1, 1}]
+time = 89      commanders finished = [{1, 1}]
+
+time = 90      db updates done = [{1, 1}]
+time = 90       client requests seen = [{1, 1}]
+time = 90      total seen = 1 max lag = 0
+time = 90      scouts spawned = [{1, 1}]
+time = 90      scouts finished = [{1, 1}]
+time = 90      commanders spawned = [{1, 1}]
+time = 90      commanders finished = [{1, 1}]
+
+time = 91      db updates done = [{1, 1}]
+time = 91       client requests seen = [{1, 1}]
+time = 91      total seen = 1 max lag = 0
+time = 91      scouts spawned = [{1, 1}]
+time = 91      scouts finished = [{1, 1}]
+time = 91      commanders spawned = [{1, 1}]
+time = 91      commanders finished = [{1, 1}]
+
+time = 92      db updates done = [{1, 1}]
+time = 92       client requests seen = [{1, 1}]
+time = 92      total seen = 1 max lag = 0
+time = 92      scouts spawned = [{1, 1}]
+time = 92      scouts finished = [{1, 1}]
+time = 92      commanders spawned = [{1, 1}]
+time = 92      commanders finished = [{1, 1}]
+
+time = 93      db updates done = [{1, 1}]
+time = 93       client requests seen = [{1, 1}]
+time = 93      total seen = 1 max lag = 0
+time = 93      scouts spawned = [{1, 1}]
+time = 93      scouts finished = [{1, 1}]
+time = 93      commanders spawned = [{1, 1}]
+time = 93      commanders finished = [{1, 1}]
+
+time = 94      db updates done = [{1, 1}]
+time = 94       client requests seen = [{1, 1}]
+time = 94      total seen = 1 max lag = 0
+time = 94      scouts spawned = [{1, 1}]
+time = 94      scouts finished = [{1, 1}]
+time = 94      commanders spawned = [{1, 1}]
+time = 94      commanders finished = [{1, 1}]
+
+time = 95      db updates done = [{1, 1}]
+time = 95       client requests seen = [{1, 1}]
+time = 95      total seen = 1 max lag = 0
+time = 95      scouts spawned = [{1, 1}]
+time = 95      scouts finished = [{1, 1}]
+time = 95      commanders spawned = [{1, 1}]
+time = 95      commanders finished = [{1, 1}]
+
+time = 96      db updates done = [{1, 1}]
+time = 96       client requests seen = [{1, 1}]
+time = 96      total seen = 1 max lag = 0
+time = 96      scouts spawned = [{1, 1}]
+time = 96      scouts finished = [{1, 1}]
+time = 96      commanders spawned = [{1, 1}]
+time = 96      commanders finished = [{1, 1}]
+
+time = 97      db updates done = [{1, 1}]
+time = 97       client requests seen = [{1, 1}]
+time = 97      total seen = 1 max lag = 0
+time = 97      scouts spawned = [{1, 1}]
+time = 97      scouts finished = [{1, 1}]
+time = 97      commanders spawned = [{1, 1}]
+time = 97      commanders finished = [{1, 1}]
+
+time = 98      db updates done = [{1, 1}]
+time = 98       client requests seen = [{1, 1}]
+time = 98      total seen = 1 max lag = 0
+time = 98      scouts spawned = [{1, 1}]
+time = 98      scouts finished = [{1, 1}]
+time = 98      commanders spawned = [{1, 1}]
+time = 98      commanders finished = [{1, 1}]
+
+time = 99      db updates done = [{1, 1}]
+time = 99       client requests seen = [{1, 1}]
+time = 99      total seen = 1 max lag = 0
+time = 99      scouts spawned = [{1, 1}]
+time = 99      scouts finished = [{1, 1}]
+time = 99      commanders spawned = [{1, 1}]
+time = 99      commanders finished = [{1, 1}]
+
+time = 100      db updates done = [{1, 1}]
+time = 100       client requests seen = [{1, 1}]
+time = 100      total seen = 1 max lag = 0
+time = 100      scouts spawned = [{1, 1}]
+time = 100      scouts finished = [{1, 1}]
+time = 100      commanders spawned = [{1, 1}]
+time = 100      commanders finished = [{1, 1}]
+
+time = 101      db updates done = [{1, 1}]
+time = 101       client requests seen = [{1, 1}]
+time = 101      total seen = 1 max lag = 0
+time = 101      scouts spawned = [{1, 1}]
+time = 101      scouts finished = [{1, 1}]
+time = 101      commanders spawned = [{1, 1}]
+time = 101      commanders finished = [{1, 1}]
+
+time = 102      db updates done = [{1, 1}]
+time = 102       client requests seen = [{1, 1}]
+time = 102      total seen = 1 max lag = 0
+time = 102      scouts spawned = [{1, 1}]
+time = 102      scouts finished = [{1, 1}]
+time = 102      commanders spawned = [{1, 1}]
+time = 102      commanders finished = [{1, 1}]
+
+time = 103      db updates done = [{1, 1}]
+time = 103       client requests seen = [{1, 1}]
+time = 103      total seen = 1 max lag = 0
+time = 103      scouts spawned = [{1, 1}]
+time = 103      scouts finished = [{1, 1}]
+time = 103      commanders spawned = [{1, 1}]
+time = 103      commanders finished = [{1, 1}]
+
+time = 104      db updates done = [{1, 1}]
+time = 104       client requests seen = [{1, 1}]
+time = 104      total seen = 1 max lag = 0
+time = 104      scouts spawned = [{1, 1}]
+time = 104      scouts finished = [{1, 1}]
+time = 104      commanders spawned = [{1, 1}]
+time = 104      commanders finished = [{1, 1}]
+
+time = 105      db updates done = [{1, 1}]
+time = 105       client requests seen = [{1, 1}]
+time = 105      total seen = 1 max lag = 0
+time = 105      scouts spawned = [{1, 1}]
+time = 105      scouts finished = [{1, 1}]
+time = 105      commanders spawned = [{1, 1}]
+time = 105      commanders finished = [{1, 1}]
+
+time = 106      db updates done = [{1, 1}]
+time = 106       client requests seen = [{1, 1}]
+time = 106      total seen = 1 max lag = 0
+time = 106      scouts spawned = [{1, 1}]
+time = 106      scouts finished = [{1, 1}]
+time = 106      commanders spawned = [{1, 1}]
+time = 106      commanders finished = [{1, 1}]
+
+time = 107      db updates done = [{1, 1}]
+time = 107       client requests seen = [{1, 1}]
+time = 107      total seen = 1 max lag = 0
+time = 107      scouts spawned = [{1, 1}]
+time = 107      scouts finished = [{1, 1}]
+time = 107      commanders spawned = [{1, 1}]
+time = 107      commanders finished = [{1, 1}]
+
+time = 108      db updates done = [{1, 1}]
+time = 108       client requests seen = [{1, 1}]
+time = 108      total seen = 1 max lag = 0
+time = 108      scouts spawned = [{1, 1}]
+time = 108      scouts finished = [{1, 1}]
+time = 108      commanders spawned = [{1, 1}]
+time = 108      commanders finished = [{1, 1}]
+
+time = 109      db updates done = [{1, 1}]
+time = 109       client requests seen = [{1, 1}]
+time = 109      total seen = 1 max lag = 0
+time = 109      scouts spawned = [{1, 1}]
+time = 109      scouts finished = [{1, 1}]
+time = 109      commanders spawned = [{1, 1}]
+time = 109      commanders finished = [{1, 1}]
+
+time = 110      db updates done = [{1, 1}]
+time = 110       client requests seen = [{1, 1}]
+time = 110      total seen = 1 max lag = 0
+time = 110      scouts spawned = [{1, 1}]
+time = 110      scouts finished = [{1, 1}]
+time = 110      commanders spawned = [{1, 1}]
+time = 110      commanders finished = [{1, 1}]
+
+time = 111      db updates done = [{1, 1}]
+time = 111       client requests seen = [{1, 1}]
+time = 111      total seen = 1 max lag = 0
+time = 111      scouts spawned = [{1, 1}]
+time = 111      scouts finished = [{1, 1}]
+time = 111      commanders spawned = [{1, 1}]
+time = 111      commanders finished = [{1, 1}]
+
+time = 112      db updates done = [{1, 1}]
+time = 112       client requests seen = [{1, 1}]
+time = 112      total seen = 1 max lag = 0
+time = 112      scouts spawned = [{1, 1}]
+time = 112      scouts finished = [{1, 1}]
+time = 112      commanders spawned = [{1, 1}]
+time = 112      commanders finished = [{1, 1}]
+
+time = 113      db updates done = [{1, 1}]
+time = 113       client requests seen = [{1, 1}]
+time = 113      total seen = 1 max lag = 0
+time = 113      scouts spawned = [{1, 1}]
+time = 113      scouts finished = [{1, 1}]
+time = 113      commanders spawned = [{1, 1}]
+time = 113      commanders finished = [{1, 1}]
+
+time = 114      db updates done = [{1, 1}]
+time = 114       client requests seen = [{1, 1}]
+time = 114      total seen = 1 max lag = 0
+time = 114      scouts spawned = [{1, 1}]
+time = 114      scouts finished = [{1, 1}]
+time = 114      commanders spawned = [{1, 1}]
+time = 114      commanders finished = [{1, 1}]
+
+time = 115      db updates done = [{1, 1}]
+time = 115       client requests seen = [{1, 1}]
+time = 115      total seen = 1 max lag = 0
+time = 115      scouts spawned = [{1, 1}]
+time = 115      scouts finished = [{1, 1}]
+time = 115      commanders spawned = [{1, 1}]
+time = 115      commanders finished = [{1, 1}]
+
+time = 116      db updates done = [{1, 1}]
+time = 116       client requests seen = [{1, 1}]
+time = 116      total seen = 1 max lag = 0
+time = 116      scouts spawned = [{1, 1}]
+time = 116      scouts finished = [{1, 1}]
+time = 116      commanders spawned = [{1, 1}]
+time = 116      commanders finished = [{1, 1}]
+
+time = 117      db updates done = [{1, 1}]
+time = 117       client requests seen = [{1, 1}]
+time = 117      total seen = 1 max lag = 0
+time = 117      scouts spawned = [{1, 1}]
+time = 117      scouts finished = [{1, 1}]
+time = 117      commanders spawned = [{1, 1}]
+time = 117      commanders finished = [{1, 1}]
+
+time = 118      db updates done = [{1, 1}]
+time = 118       client requests seen = [{1, 1}]
+time = 118      total seen = 1 max lag = 0
+time = 118      scouts spawned = [{1, 1}]
+time = 118      scouts finished = [{1, 1}]
+time = 118      commanders spawned = [{1, 1}]
+time = 118      commanders finished = [{1, 1}]
+
+time = 119      db updates done = [{1, 1}]
+time = 119       client requests seen = [{1, 1}]
+time = 119      total seen = 1 max lag = 0
+time = 119      scouts spawned = [{1, 1}]
+time = 119      scouts finished = [{1, 1}]
+time = 119      commanders spawned = [{1, 1}]
+time = 119      commanders finished = [{1, 1}]
+
+time = 120      db updates done = [{1, 1}]
+time = 120       client requests seen = [{1, 1}]
+time = 120      total seen = 1 max lag = 0
+time = 120      scouts spawned = [{1, 1}]
+time = 120      scouts finished = [{1, 1}]
+time = 120      commanders spawned = [{1, 1}]
+time = 120      commanders finished = [{1, 1}]
+
+time = 121      db updates done = [{1, 1}]
+time = 121       client requests seen = [{1, 1}]
+time = 121      total seen = 1 max lag = 0
+time = 121      scouts spawned = [{1, 1}]
+time = 121      scouts finished = [{1, 1}]
+time = 121      commanders spawned = [{1, 1}]
+time = 121      commanders finished = [{1, 1}]
+
+time = 122      db updates done = [{1, 1}]
+time = 122       client requests seen = [{1, 1}]
+time = 122      total seen = 1 max lag = 0
+time = 122      scouts spawned = [{1, 1}]
+time = 122      scouts finished = [{1, 1}]
+time = 122      commanders spawned = [{1, 1}]
+time = 122      commanders finished = [{1, 1}]
+
+time = 123      db updates done = [{1, 1}]
+time = 123       client requests seen = [{1, 1}]
+time = 123      total seen = 1 max lag = 0
+time = 123      scouts spawned = [{1, 1}]
+time = 123      scouts finished = [{1, 1}]
+time = 123      commanders spawned = [{1, 1}]
+time = 123      commanders finished = [{1, 1}]
+
+time = 124      db updates done = [{1, 1}]
+time = 124       client requests seen = [{1, 1}]
+time = 124      total seen = 1 max lag = 0
+time = 124      scouts spawned = [{1, 1}]
+time = 124      scouts finished = [{1, 1}]
+time = 124      commanders spawned = [{1, 1}]
+time = 124      commanders finished = [{1, 1}]
+
+time = 125      db updates done = [{1, 1}]
+time = 125       client requests seen = [{1, 1}]
+time = 125      total seen = 1 max lag = 0
+time = 125      scouts spawned = [{1, 1}]
+time = 125      scouts finished = [{1, 1}]
+time = 125      commanders spawned = [{1, 1}]
+time = 125      commanders finished = [{1, 1}]
+
+time = 126      db updates done = [{1, 1}]
+time = 126       client requests seen = [{1, 1}]
+time = 126      total seen = 1 max lag = 0
+time = 126      scouts spawned = [{1, 1}]
+time = 126      scouts finished = [{1, 1}]
+time = 126      commanders spawned = [{1, 1}]
+time = 126      commanders finished = [{1, 1}]
+
+time = 127      db updates done = [{1, 1}]
+time = 127       client requests seen = [{1, 1}]
+time = 127      total seen = 1 max lag = 0
+time = 127      scouts spawned = [{1, 1}]
+time = 127      scouts finished = [{1, 1}]
+time = 127      commanders spawned = [{1, 1}]
+time = 127      commanders finished = [{1, 1}]
+
+time = 128      db updates done = [{1, 1}]
+time = 128       client requests seen = [{1, 1}]
+time = 128      total seen = 1 max lag = 0
+time = 128      scouts spawned = [{1, 1}]
+time = 128      scouts finished = [{1, 1}]
+time = 128      commanders spawned = [{1, 1}]
+time = 128      commanders finished = [{1, 1}]
+
+time = 129      db updates done = [{1, 1}]
+time = 129       client requests seen = [{1, 1}]
+time = 129      total seen = 1 max lag = 0
+time = 129      scouts spawned = [{1, 1}]
+time = 129      scouts finished = [{1, 1}]
+time = 129      commanders spawned = [{1, 1}]
+time = 129      commanders finished = [{1, 1}]
+
+time = 130      db updates done = [{1, 1}]
+time = 130       client requests seen = [{1, 1}]
+time = 130      total seen = 1 max lag = 0
+time = 130      scouts spawned = [{1, 1}]
+time = 130      scouts finished = [{1, 1}]
+time = 130      commanders spawned = [{1, 1}]
+time = 130      commanders finished = [{1, 1}]
+
+time = 131      db updates done = [{1, 1}]
+time = 131       client requests seen = [{1, 1}]
+time = 131      total seen = 1 max lag = 0
+time = 131      scouts spawned = [{1, 1}]
+time = 131      scouts finished = [{1, 1}]
+time = 131      commanders spawned = [{1, 1}]
+time = 131      commanders finished = [{1, 1}]
+
+time = 132      db updates done = [{1, 1}]
+time = 132       client requests seen = [{1, 1}]
+time = 132      total seen = 1 max lag = 0
+time = 132      scouts spawned = [{1, 1}]
+time = 132      scouts finished = [{1, 1}]
+time = 132      commanders spawned = [{1, 1}]
+time = 132      commanders finished = [{1, 1}]
+
+time = 133      db updates done = [{1, 1}]
+time = 133       client requests seen = [{1, 1}]
+time = 133      total seen = 1 max lag = 0
+time = 133      scouts spawned = [{1, 1}]
+time = 133      scouts finished = [{1, 1}]
+time = 133      commanders spawned = [{1, 1}]
+time = 133      commanders finished = [{1, 1}]
+
+time = 134      db updates done = [{1, 1}]
+time = 134       client requests seen = [{1, 1}]
+time = 134      total seen = 1 max lag = 0
+time = 134      scouts spawned = [{1, 1}]
+time = 134      scouts finished = [{1, 1}]
+time = 134      commanders spawned = [{1, 1}]
+time = 134      commanders finished = [{1, 1}]
+
+time = 135      db updates done = [{1, 1}]
+time = 135       client requests seen = [{1, 1}]
+time = 135      total seen = 1 max lag = 0
+time = 135      scouts spawned = [{1, 1}]
+time = 135      scouts finished = [{1, 1}]
+time = 135      commanders spawned = [{1, 1}]
+time = 135      commanders finished = [{1, 1}]
+
+time = 136      db updates done = [{1, 1}]
+time = 136       client requests seen = [{1, 1}]
+time = 136      total seen = 1 max lag = 0
+time = 136      scouts spawned = [{1, 1}]
+time = 136      scouts finished = [{1, 1}]
+time = 136      commanders spawned = [{1, 1}]
+time = 136      commanders finished = [{1, 1}]
+
+time = 137      db updates done = [{1, 1}]
+time = 137       client requests seen = [{1, 1}]
+time = 137      total seen = 1 max lag = 0
+time = 137      scouts spawned = [{1, 1}]
+time = 137      scouts finished = [{1, 1}]
+time = 137      commanders spawned = [{1, 1}]
+time = 137      commanders finished = [{1, 1}]
+
+time = 138      db updates done = [{1, 1}]
+time = 138       client requests seen = [{1, 1}]
+time = 138      total seen = 1 max lag = 0
+time = 138      scouts spawned = [{1, 1}]
+time = 138      scouts finished = [{1, 1}]
+time = 138      commanders spawned = [{1, 1}]
+time = 138      commanders finished = [{1, 1}]
+
+time = 139      db updates done = [{1, 1}]
+time = 139       client requests seen = [{1, 1}]
+time = 139      total seen = 1 max lag = 0
+time = 139      scouts spawned = [{1, 1}]
+time = 139      scouts finished = [{1, 1}]
+time = 139      commanders spawned = [{1, 1}]
+time = 139      commanders finished = [{1, 1}]
+
+time = 140      db updates done = [{1, 1}]
+time = 140       client requests seen = [{1, 1}]
+time = 140      total seen = 1 max lag = 0
+time = 140      scouts spawned = [{1, 1}]
+time = 140      scouts finished = [{1, 1}]
+time = 140      commanders spawned = [{1, 1}]
+time = 140      commanders finished = [{1, 1}]
+
+time = 141      db updates done = [{1, 1}]
+time = 141       client requests seen = [{1, 1}]
+time = 141      total seen = 1 max lag = 0
+time = 141      scouts spawned = [{1, 1}]
+time = 141      scouts finished = [{1, 1}]
+time = 141      commanders spawned = [{1, 1}]
+time = 141      commanders finished = [{1, 1}]
+
+time = 142      db updates done = [{1, 1}]
+time = 142       client requests seen = [{1, 1}]
+time = 142      total seen = 1 max lag = 0
+time = 142      scouts spawned = [{1, 1}]
+time = 142      scouts finished = [{1, 1}]
+time = 142      commanders spawned = [{1, 1}]
+time = 142      commanders finished = [{1, 1}]
+
+time = 143      db updates done = [{1, 1}]
+time = 143       client requests seen = [{1, 1}]
+time = 143      total seen = 1 max lag = 0
+time = 143      scouts spawned = [{1, 1}]
+time = 143      scouts finished = [{1, 1}]
+time = 143      commanders spawned = [{1, 1}]
+time = 143      commanders finished = [{1, 1}]
+
+time = 144      db updates done = [{1, 1}]
+time = 144       client requests seen = [{1, 1}]
+time = 144      total seen = 1 max lag = 0
+time = 144      scouts spawned = [{1, 1}]
+time = 144      scouts finished = [{1, 1}]
+time = 144      commanders spawned = [{1, 1}]
+time = 144      commanders finished = [{1, 1}]
+
+time = 145      db updates done = [{1, 1}]
+time = 145       client requests seen = [{1, 1}]
+time = 145      total seen = 1 max lag = 0
+time = 145      scouts spawned = [{1, 1}]
+time = 145      scouts finished = [{1, 1}]
+time = 145      commanders spawned = [{1, 1}]
+time = 145      commanders finished = [{1, 1}]
+
+time = 146      db updates done = [{1, 1}]
+time = 146       client requests seen = [{1, 1}]
+time = 146      total seen = 1 max lag = 0
+time = 146      scouts spawned = [{1, 1}]
+time = 146      scouts finished = [{1, 1}]
+time = 146      commanders spawned = [{1, 1}]
+time = 146      commanders finished = [{1, 1}]
+
+time = 147      db updates done = [{1, 1}]
+time = 147       client requests seen = [{1, 1}]
+time = 147      total seen = 1 max lag = 0
+time = 147      scouts spawned = [{1, 1}]
+time = 147      scouts finished = [{1, 1}]
+time = 147      commanders spawned = [{1, 1}]
+time = 147      commanders finished = [{1, 1}]
+
+time = 148      db updates done = [{1, 1}]
+time = 148       client requests seen = [{1, 1}]
+time = 148      total seen = 1 max lag = 0
+time = 148      scouts spawned = [{1, 1}]
+time = 148      scouts finished = [{1, 1}]
+time = 148      commanders spawned = [{1, 1}]
+time = 148      commanders finished = [{1, 1}]
+
+time = 149      db updates done = [{1, 1}]
+time = 149       client requests seen = [{1, 1}]
+time = 149      total seen = 1 max lag = 0
+time = 149      scouts spawned = [{1, 1}]
+time = 149      scouts finished = [{1, 1}]
+time = 149      commanders spawned = [{1, 1}]
+time = 149      commanders finished = [{1, 1}]
+
+time = 150      db updates done = [{1, 1}]
+time = 150       client requests seen = [{1, 1}]
+time = 150      total seen = 1 max lag = 0
+time = 150      scouts spawned = [{1, 1}]
+time = 150      scouts finished = [{1, 1}]
+time = 150      commanders spawned = [{1, 1}]
+time = 150      commanders finished = [{1, 1}]
+
+time = 151      db updates done = [{1, 1}]
+time = 151       client requests seen = [{1, 1}]
+time = 151      total seen = 1 max lag = 0
+time = 151      scouts spawned = [{1, 1}]
+time = 151      scouts finished = [{1, 1}]
+time = 151      commanders spawned = [{1, 1}]
+time = 151      commanders finished = [{1, 1}]
+
+time = 152      db updates done = [{1, 1}]
+time = 152       client requests seen = [{1, 1}]
+time = 152      total seen = 1 max lag = 0
+time = 152      scouts spawned = [{1, 1}]
+time = 152      scouts finished = [{1, 1}]
+time = 152      commanders spawned = [{1, 1}]
+time = 152      commanders finished = [{1, 1}]
+
+time = 153      db updates done = [{1, 1}]
+time = 153       client requests seen = [{1, 1}]
+time = 153      total seen = 1 max lag = 0
+time = 153      scouts spawned = [{1, 1}]
+time = 153      scouts finished = [{1, 1}]
+time = 153      commanders spawned = [{1, 1}]
+time = 153      commanders finished = [{1, 1}]
+
+time = 154      db updates done = [{1, 1}]
+time = 154       client requests seen = [{1, 1}]
+time = 154      total seen = 1 max lag = 0
+time = 154      scouts spawned = [{1, 1}]
+time = 154      scouts finished = [{1, 1}]
+time = 154      commanders spawned = [{1, 1}]
+time = 154      commanders finished = [{1, 1}]
+
+time = 155      db updates done = [{1, 1}]
+time = 155       client requests seen = [{1, 1}]
+time = 155      total seen = 1 max lag = 0
+time = 155      scouts spawned = [{1, 1}]
+time = 155      scouts finished = [{1, 1}]
+time = 155      commanders spawned = [{1, 1}]
+time = 155      commanders finished = [{1, 1}]
+
+time = 156      db updates done = [{1, 1}]
+time = 156       client requests seen = [{1, 1}]
+time = 156      total seen = 1 max lag = 0
+time = 156      scouts spawned = [{1, 1}]
+time = 156      scouts finished = [{1, 1}]
+time = 156      commanders spawned = [{1, 1}]
+time = 156      commanders finished = [{1, 1}]
+
+time = 157      db updates done = [{1, 1}]
+time = 157       client requests seen = [{1, 1}]
+time = 157      total seen = 1 max lag = 0
+time = 157      scouts spawned = [{1, 1}]
+time = 157      scouts finished = [{1, 1}]
+time = 157      commanders spawned = [{1, 1}]
+time = 157      commanders finished = [{1, 1}]
+
+time = 158      db updates done = [{1, 1}]
+time = 158       client requests seen = [{1, 1}]
+time = 158      total seen = 1 max lag = 0
+time = 158      scouts spawned = [{1, 1}]
+time = 158      scouts finished = [{1, 1}]
+time = 158      commanders spawned = [{1, 1}]
+time = 158      commanders finished = [{1, 1}]
+
+time = 159      db updates done = [{1, 1}]
+time = 159       client requests seen = [{1, 1}]
+time = 159      total seen = 1 max lag = 0
+time = 159      scouts spawned = [{1, 1}]
+time = 159      scouts finished = [{1, 1}]
+time = 159      commanders spawned = [{1, 1}]
+time = 159      commanders finished = [{1, 1}]
+
+time = 160      db updates done = [{1, 1}]
+time = 160       client requests seen = [{1, 1}]
+time = 160      total seen = 1 max lag = 0
+time = 160      scouts spawned = [{1, 1}]
+time = 160      scouts finished = [{1, 1}]
+time = 160      commanders spawned = [{1, 1}]
+time = 160      commanders finished = [{1, 1}]
+
+time = 161      db updates done = [{1, 1}]
+time = 161       client requests seen = [{1, 1}]
+time = 161      total seen = 1 max lag = 0
+time = 161      scouts spawned = [{1, 1}]
+time = 161      scouts finished = [{1, 1}]
+time = 161      commanders spawned = [{1, 1}]
+time = 161      commanders finished = [{1, 1}]
+
+time = 162      db updates done = [{1, 1}]
+time = 162       client requests seen = [{1, 1}]
+time = 162      total seen = 1 max lag = 0
+time = 162      scouts spawned = [{1, 1}]
+time = 162      scouts finished = [{1, 1}]
+time = 162      commanders spawned = [{1, 1}]
+time = 162      commanders finished = [{1, 1}]
+
+time = 163      db updates done = [{1, 1}]
+time = 163       client requests seen = [{1, 1}]
+time = 163      total seen = 1 max lag = 0
+time = 163      scouts spawned = [{1, 1}]
+time = 163      scouts finished = [{1, 1}]
+time = 163      commanders spawned = [{1, 1}]
+time = 163      commanders finished = [{1, 1}]
+
+time = 164      db updates done = [{1, 1}]
+time = 164       client requests seen = [{1, 1}]
+time = 164      total seen = 1 max lag = 0
+time = 164      scouts spawned = [{1, 1}]
+time = 164      scouts finished = [{1, 1}]
+time = 164      commanders spawned = [{1, 1}]
+time = 164      commanders finished = [{1, 1}]
+
+time = 165      db updates done = [{1, 1}]
+time = 165       client requests seen = [{1, 1}]
+time = 165      total seen = 1 max lag = 0
+time = 165      scouts spawned = [{1, 1}]
+time = 165      scouts finished = [{1, 1}]
+time = 165      commanders spawned = [{1, 1}]
+time = 165      commanders finished = [{1, 1}]
+
+time = 166      db updates done = [{1, 1}]
+time = 166       client requests seen = [{1, 1}]
+time = 166      total seen = 1 max lag = 0
+time = 166      scouts spawned = [{1, 1}]
+time = 166      scouts finished = [{1, 1}]
+time = 166      commanders spawned = [{1, 1}]
+time = 166      commanders finished = [{1, 1}]
+
+time = 167      db updates done = [{1, 1}]
+time = 167       client requests seen = [{1, 1}]
+time = 167      total seen = 1 max lag = 0
+time = 167      scouts spawned = [{1, 1}]
+time = 167      scouts finished = [{1, 1}]
+time = 167      commanders spawned = [{1, 1}]
+time = 167      commanders finished = [{1, 1}]
+
+time = 168      db updates done = [{1, 1}]
+time = 168       client requests seen = [{1, 1}]
+time = 168      total seen = 1 max lag = 0
+time = 168      scouts spawned = [{1, 1}]
+time = 168      scouts finished = [{1, 1}]
+time = 168      commanders spawned = [{1, 1}]
+time = 168      commanders finished = [{1, 1}]
+
+time = 169      db updates done = [{1, 1}]
+time = 169       client requests seen = [{1, 1}]
+time = 169      total seen = 1 max lag = 0
+time = 169      scouts spawned = [{1, 1}]
+time = 169      scouts finished = [{1, 1}]
+time = 169      commanders spawned = [{1, 1}]
+time = 169      commanders finished = [{1, 1}]
+
+time = 170      db updates done = [{1, 1}]
+time = 170       client requests seen = [{1, 1}]
+time = 170      total seen = 1 max lag = 0
+time = 170      scouts spawned = [{1, 1}]
+time = 170      scouts finished = [{1, 1}]
+time = 170      commanders spawned = [{1, 1}]
+time = 170      commanders finished = [{1, 1}]
+
+time = 171      db updates done = [{1, 1}]
+time = 171       client requests seen = [{1, 1}]
+time = 171      total seen = 1 max lag = 0
+time = 171      scouts spawned = [{1, 1}]
+time = 171      scouts finished = [{1, 1}]
+time = 171      commanders spawned = [{1, 1}]
+time = 171      commanders finished = [{1, 1}]
+
+time = 172      db updates done = [{1, 1}]
+time = 172       client requests seen = [{1, 1}]
+time = 172      total seen = 1 max lag = 0
+time = 172      scouts spawned = [{1, 1}]
+time = 172      scouts finished = [{1, 1}]
+time = 172      commanders spawned = [{1, 1}]
+time = 172      commanders finished = [{1, 1}]
+
+time = 173      db updates done = [{1, 1}]
+time = 173       client requests seen = [{1, 1}]
+time = 173      total seen = 1 max lag = 0
+time = 173      scouts spawned = [{1, 1}]
+time = 173      scouts finished = [{1, 1}]
+time = 173      commanders spawned = [{1, 1}]
+time = 173      commanders finished = [{1, 1}]
+
+time = 174      db updates done = [{1, 1}]
+time = 174       client requests seen = [{1, 1}]
+time = 174      total seen = 1 max lag = 0
+time = 174      scouts spawned = [{1, 1}]
+time = 174      scouts finished = [{1, 1}]
+time = 174      commanders spawned = [{1, 1}]
+time = 174      commanders finished = [{1, 1}]
+
+time = 175      db updates done = [{1, 1}]
+time = 175       client requests seen = [{1, 1}]
+time = 175      total seen = 1 max lag = 0
+time = 175      scouts spawned = [{1, 1}]
+time = 175      scouts finished = [{1, 1}]
+time = 175      commanders spawned = [{1, 1}]
+time = 175      commanders finished = [{1, 1}]
+
+time = 176      db updates done = [{1, 1}]
+time = 176       client requests seen = [{1, 1}]
+time = 176      total seen = 1 max lag = 0
+time = 176      scouts spawned = [{1, 1}]
+time = 176      scouts finished = [{1, 1}]
+time = 176      commanders spawned = [{1, 1}]
+time = 176      commanders finished = [{1, 1}]
+
+time = 177      db updates done = [{1, 1}]
+time = 177       client requests seen = [{1, 1}]
+time = 177      total seen = 1 max lag = 0
+time = 177      scouts spawned = [{1, 1}]
+time = 177      scouts finished = [{1, 1}]
+time = 177      commanders spawned = [{1, 1}]
+time = 177      commanders finished = [{1, 1}]
+
+time = 178      db updates done = [{1, 1}]
+time = 178       client requests seen = [{1, 1}]
+time = 178      total seen = 1 max lag = 0
+time = 178      scouts spawned = [{1, 1}]
+time = 178      scouts finished = [{1, 1}]
+time = 178      commanders spawned = [{1, 1}]
+time = 178      commanders finished = [{1, 1}]
+
+time = 179      db updates done = [{1, 1}]
+time = 179       client requests seen = [{1, 1}]
+time = 179      total seen = 1 max lag = 0
+time = 179      scouts spawned = [{1, 1}]
+time = 179      scouts finished = [{1, 1}]
+time = 179      commanders spawned = [{1, 1}]
+time = 179      commanders finished = [{1, 1}]
+
+time = 180      db updates done = [{1, 1}]
+time = 180       client requests seen = [{1, 1}]
+time = 180      total seen = 1 max lag = 0
+time = 180      scouts spawned = [{1, 1}]
+time = 180      scouts finished = [{1, 1}]
+time = 180      commanders spawned = [{1, 1}]
+time = 180      commanders finished = [{1, 1}]
+
+time = 181      db updates done = [{1, 1}]
+time = 181       client requests seen = [{1, 1}]
+time = 181      total seen = 1 max lag = 0
+time = 181      scouts spawned = [{1, 1}]
+time = 181      scouts finished = [{1, 1}]
+time = 181      commanders spawned = [{1, 1}]
+time = 181      commanders finished = [{1, 1}]
+
+time = 182      db updates done = [{1, 1}]
+time = 182       client requests seen = [{1, 1}]
+time = 182      total seen = 1 max lag = 0
+time = 182      scouts spawned = [{1, 1}]
+time = 182      scouts finished = [{1, 1}]
+time = 182      commanders spawned = [{1, 1}]
+time = 182      commanders finished = [{1, 1}]
+
+time = 183      db updates done = [{1, 1}]
+time = 183       client requests seen = [{1, 1}]
+time = 183      total seen = 1 max lag = 0
+time = 183      scouts spawned = [{1, 1}]
+time = 183      scouts finished = [{1, 1}]
+time = 183      commanders spawned = [{1, 1}]
+time = 183      commanders finished = [{1, 1}]
+
+time = 184      db updates done = [{1, 1}]
+time = 184       client requests seen = [{1, 1}]
+time = 184      total seen = 1 max lag = 0
+time = 184      scouts spawned = [{1, 1}]
+time = 184      scouts finished = [{1, 1}]
+time = 184      commanders spawned = [{1, 1}]
+time = 184      commanders finished = [{1, 1}]
+
+time = 185      db updates done = [{1, 1}]
+time = 185       client requests seen = [{1, 1}]
+time = 185      total seen = 1 max lag = 0
+time = 185      scouts spawned = [{1, 1}]
+time = 185      scouts finished = [{1, 1}]
+time = 185      commanders spawned = [{1, 1}]
+time = 185      commanders finished = [{1, 1}]
+
+time = 186      db updates done = [{1, 1}]
+time = 186       client requests seen = [{1, 1}]
+time = 186      total seen = 1 max lag = 0
+time = 186      scouts spawned = [{1, 1}]
+time = 186      scouts finished = [{1, 1}]
+time = 186      commanders spawned = [{1, 1}]
+time = 186      commanders finished = [{1, 1}]
+
+time = 187      db updates done = [{1, 1}]
+time = 187       client requests seen = [{1, 1}]
+time = 187      total seen = 1 max lag = 0
+time = 187      scouts spawned = [{1, 1}]
+time = 187      scouts finished = [{1, 1}]
+time = 187      commanders spawned = [{1, 1}]
+time = 187      commanders finished = [{1, 1}]
+
+time = 188      db updates done = [{1, 1}]
+time = 188       client requests seen = [{1, 1}]
+time = 188      total seen = 1 max lag = 0
+time = 188      scouts spawned = [{1, 1}]
+time = 188      scouts finished = [{1, 1}]
+time = 188      commanders spawned = [{1, 1}]
+time = 188      commanders finished = [{1, 1}]
+
+time = 189      db updates done = [{1, 1}]
+time = 189       client requests seen = [{1, 1}]
+time = 189      total seen = 1 max lag = 0
+time = 189      scouts spawned = [{1, 1}]
+time = 189      scouts finished = [{1, 1}]
+time = 189      commanders spawned = [{1, 1}]
+time = 189      commanders finished = [{1, 1}]
+
+time = 190      db updates done = [{1, 1}]
+time = 190       client requests seen = [{1, 1}]
+time = 190      total seen = 1 max lag = 0
+time = 190      scouts spawned = [{1, 1}]
+time = 190      scouts finished = [{1, 1}]
+time = 190      commanders spawned = [{1, 1}]
+time = 190      commanders finished = [{1, 1}]
+
+time = 191      db updates done = [{1, 1}]
+time = 191       client requests seen = [{1, 1}]
+time = 191      total seen = 1 max lag = 0
+time = 191      scouts spawned = [{1, 1}]
+time = 191      scouts finished = [{1, 1}]
+time = 191      commanders spawned = [{1, 1}]
+time = 191      commanders finished = [{1, 1}]
+
+time = 192      db updates done = [{1, 1}]
+time = 192       client requests seen = [{1, 1}]
+time = 192      total seen = 1 max lag = 0
+time = 192      scouts spawned = [{1, 1}]
+time = 192      scouts finished = [{1, 1}]
+time = 192      commanders spawned = [{1, 1}]
+time = 192      commanders finished = [{1, 1}]
+
+time = 193      db updates done = [{1, 1}]
+time = 193       client requests seen = [{1, 1}]
+time = 193      total seen = 1 max lag = 0
+time = 193      scouts spawned = [{1, 1}]
+time = 193      scouts finished = [{1, 1}]
+time = 193      commanders spawned = [{1, 1}]
+time = 193      commanders finished = [{1, 1}]
+
+time = 194      db updates done = [{1, 1}]
+time = 194       client requests seen = [{1, 1}]
+time = 194      total seen = 1 max lag = 0
+time = 194      scouts spawned = [{1, 1}]
+time = 194      scouts finished = [{1, 1}]
+time = 194      commanders spawned = [{1, 1}]
+time = 194      commanders finished = [{1, 1}]
+
+time = 195      db updates done = [{1, 1}]
+time = 195       client requests seen = [{1, 1}]
+time = 195      total seen = 1 max lag = 0
+time = 195      scouts spawned = [{1, 1}]
+time = 195      scouts finished = [{1, 1}]
+time = 195      commanders spawned = [{1, 1}]
+time = 195      commanders finished = [{1, 1}]
+
+time = 196      db updates done = [{1, 1}]
+time = 196       client requests seen = [{1, 1}]
+time = 196      total seen = 1 max lag = 0
+time = 196      scouts spawned = [{1, 1}]
+time = 196      scouts finished = [{1, 1}]
+time = 196      commanders spawned = [{1, 1}]
+time = 196      commanders finished = [{1, 1}]
+
+time = 197      db updates done = [{1, 1}]
+time = 197       client requests seen = [{1, 1}]
+time = 197      total seen = 1 max lag = 0
+time = 197      scouts spawned = [{1, 1}]
+time = 197      scouts finished = [{1, 1}]
+time = 197      commanders spawned = [{1, 1}]
+time = 197      commanders finished = [{1, 1}]
+
+time = 198      db updates done = [{1, 1}]
+time = 198       client requests seen = [{1, 1}]
+time = 198      total seen = 1 max lag = 0
+time = 198      scouts spawned = [{1, 1}]
+time = 198      scouts finished = [{1, 1}]
+time = 198      commanders spawned = [{1, 1}]
+time = 198      commanders finished = [{1, 1}]
+
+time = 199      db updates done = [{1, 1}]
+time = 199       client requests seen = [{1, 1}]
+time = 199      total seen = 1 max lag = 0
+time = 199      scouts spawned = [{1, 1}]
+time = 199      scouts finished = [{1, 1}]
+time = 199      commanders spawned = [{1, 1}]
+time = 199      commanders finished = [{1, 1}]
+
+time = 200      db updates done = [{1, 1}]
+time = 200       client requests seen = [{1, 1}]
+time = 200      total seen = 1 max lag = 0
+time = 200      scouts spawned = [{1, 1}]
+time = 200      scouts finished = [{1, 1}]
+time = 200      commanders spawned = [{1, 1}]
+time = 200      commanders finished = [{1, 1}]
+
+time = 201      db updates done = [{1, 1}]
+time = 201       client requests seen = [{1, 1}]
+time = 201      total seen = 1 max lag = 0
+time = 201      scouts spawned = [{1, 1}]
+time = 201      scouts finished = [{1, 1}]
+time = 201      commanders spawned = [{1, 1}]
+time = 201      commanders finished = [{1, 1}]
+
+time = 202      db updates done = [{1, 1}]
+time = 202       client requests seen = [{1, 1}]
+time = 202      total seen = 1 max lag = 0
+time = 202      scouts spawned = [{1, 1}]
+time = 202      scouts finished = [{1, 1}]
+time = 202      commanders spawned = [{1, 1}]
+time = 202      commanders finished = [{1, 1}]
+
+time = 203      db updates done = [{1, 1}]
+time = 203       client requests seen = [{1, 1}]
+time = 203      total seen = 1 max lag = 0
+time = 203      scouts spawned = [{1, 1}]
+time = 203      scouts finished = [{1, 1}]
+time = 203      commanders spawned = [{1, 1}]
+time = 203      commanders finished = [{1, 1}]
+
+time = 204      db updates done = [{1, 1}]
+time = 204       client requests seen = [{1, 1}]
+time = 204      total seen = 1 max lag = 0
+time = 204      scouts spawned = [{1, 1}]
+time = 204      scouts finished = [{1, 1}]
+time = 204      commanders spawned = [{1, 1}]
+time = 204      commanders finished = [{1, 1}]
+
+time = 205      db updates done = [{1, 1}]
+time = 205       client requests seen = [{1, 1}]
+time = 205      total seen = 1 max lag = 0
+time = 205      scouts spawned = [{1, 1}]
+time = 205      scouts finished = [{1, 1}]
+time = 205      commanders spawned = [{1, 1}]
+time = 205      commanders finished = [{1, 1}]
+
+time = 206      db updates done = [{1, 1}]
+time = 206       client requests seen = [{1, 1}]
+time = 206      total seen = 1 max lag = 0
+time = 206      scouts spawned = [{1, 1}]
+time = 206      scouts finished = [{1, 1}]
+time = 206      commanders spawned = [{1, 1}]
+time = 206      commanders finished = [{1, 1}]
+
+time = 207      db updates done = [{1, 1}]
+time = 207       client requests seen = [{1, 1}]
+time = 207      total seen = 1 max lag = 0
+time = 207      scouts spawned = [{1, 1}]
+time = 207      scouts finished = [{1, 1}]
+time = 207      commanders spawned = [{1, 1}]
+time = 207      commanders finished = [{1, 1}]
+
+time = 208      db updates done = [{1, 1}]
+time = 208       client requests seen = [{1, 1}]
+time = 208      total seen = 1 max lag = 0
+time = 208      scouts spawned = [{1, 1}]
+time = 208      scouts finished = [{1, 1}]
+time = 208      commanders spawned = [{1, 1}]
+time = 208      commanders finished = [{1, 1}]
+
+time = 209      db updates done = [{1, 1}]
+time = 209       client requests seen = [{1, 1}]
+time = 209      total seen = 1 max lag = 0
+time = 209      scouts spawned = [{1, 1}]
+time = 209      scouts finished = [{1, 1}]
+time = 209      commanders spawned = [{1, 1}]
+time = 209      commanders finished = [{1, 1}]
+
+time = 210      db updates done = [{1, 1}]
+time = 210       client requests seen = [{1, 1}]
+time = 210      total seen = 1 max lag = 0
+time = 210      scouts spawned = [{1, 1}]
+time = 210      scouts finished = [{1, 1}]
+time = 210      commanders spawned = [{1, 1}]
+time = 210      commanders finished = [{1, 1}]
+
+time = 211      db updates done = [{1, 1}]
+time = 211       client requests seen = [{1, 1}]
+time = 211      total seen = 1 max lag = 0
+time = 211      scouts spawned = [{1, 1}]
+time = 211      scouts finished = [{1, 1}]
+time = 211      commanders spawned = [{1, 1}]
+time = 211      commanders finished = [{1, 1}]
+
+time = 212      db updates done = [{1, 1}]
+time = 212       client requests seen = [{1, 1}]
+time = 212      total seen = 1 max lag = 0
+time = 212      scouts spawned = [{1, 1}]
+time = 212      scouts finished = [{1, 1}]
+time = 212      commanders spawned = [{1, 1}]
+time = 212      commanders finished = [{1, 1}]
+
+time = 213      db updates done = [{1, 1}]
+time = 213       client requests seen = [{1, 1}]
+time = 213      total seen = 1 max lag = 0
+time = 213      scouts spawned = [{1, 1}]
+time = 213      scouts finished = [{1, 1}]
+time = 213      commanders spawned = [{1, 1}]
+time = 213      commanders finished = [{1, 1}]
+
+time = 214      db updates done = [{1, 1}]
+time = 214       client requests seen = [{1, 1}]
+time = 214      total seen = 1 max lag = 0
+time = 214      scouts spawned = [{1, 1}]
+time = 214      scouts finished = [{1, 1}]
+time = 214      commanders spawned = [{1, 1}]
+time = 214      commanders finished = [{1, 1}]
+
+time = 215      db updates done = [{1, 1}]
+time = 215       client requests seen = [{1, 1}]
+time = 215      total seen = 1 max lag = 0
+time = 215      scouts spawned = [{1, 1}]
+time = 215      scouts finished = [{1, 1}]
+time = 215      commanders spawned = [{1, 1}]
+time = 215      commanders finished = [{1, 1}]
+
+time = 216      db updates done = [{1, 1}]
+time = 216       client requests seen = [{1, 1}]
+time = 216      total seen = 1 max lag = 0
+time = 216      scouts spawned = [{1, 1}]
+time = 216      scouts finished = [{1, 1}]
+time = 216      commanders spawned = [{1, 1}]
+time = 216      commanders finished = [{1, 1}]
+
+time = 217      db updates done = [{1, 1}]
+time = 217       client requests seen = [{1, 1}]
+time = 217      total seen = 1 max lag = 0
+time = 217      scouts spawned = [{1, 1}]
+time = 217      scouts finished = [{1, 1}]
+time = 217      commanders spawned = [{1, 1}]
+time = 217      commanders finished = [{1, 1}]
+
+time = 218      db updates done = [{1, 1}]
+time = 218       client requests seen = [{1, 1}]
+time = 218      total seen = 1 max lag = 0
+time = 218      scouts spawned = [{1, 1}]
+time = 218      scouts finished = [{1, 1}]
+time = 218      commanders spawned = [{1, 1}]
+time = 218      commanders finished = [{1, 1}]
+
+time = 219      db updates done = [{1, 1}]
+time = 219       client requests seen = [{1, 1}]
+time = 219      total seen = 1 max lag = 0
+time = 219      scouts spawned = [{1, 1}]
+time = 219      scouts finished = [{1, 1}]
+time = 219      commanders spawned = [{1, 1}]
+time = 219      commanders finished = [{1, 1}]
+
+time = 220      db updates done = [{1, 1}]
+time = 220       client requests seen = [{1, 1}]
+time = 220      total seen = 1 max lag = 0
+time = 220      scouts spawned = [{1, 1}]
+time = 220      scouts finished = [{1, 1}]
+time = 220      commanders spawned = [{1, 1}]
+time = 220      commanders finished = [{1, 1}]
+
+time = 221      db updates done = [{1, 1}]
+time = 221       client requests seen = [{1, 1}]
+time = 221      total seen = 1 max lag = 0
+time = 221      scouts spawned = [{1, 1}]
+time = 221      scouts finished = [{1, 1}]
+time = 221      commanders spawned = [{1, 1}]
+time = 221      commanders finished = [{1, 1}]
+
+time = 222      db updates done = [{1, 1}]
+time = 222       client requests seen = [{1, 1}]
+time = 222      total seen = 1 max lag = 0
+time = 222      scouts spawned = [{1, 1}]
+time = 222      scouts finished = [{1, 1}]
+time = 222      commanders spawned = [{1, 1}]
+time = 222      commanders finished = [{1, 1}]
+
+time = 223      db updates done = [{1, 1}]
+time = 223       client requests seen = [{1, 1}]
+time = 223      total seen = 1 max lag = 0
+time = 223      scouts spawned = [{1, 1}]
+time = 223      scouts finished = [{1, 1}]
+time = 223      commanders spawned = [{1, 1}]
+time = 223      commanders finished = [{1, 1}]
+
+time = 224      db updates done = [{1, 1}]
+time = 224       client requests seen = [{1, 1}]
+time = 224      total seen = 1 max lag = 0
+time = 224      scouts spawned = [{1, 1}]
+time = 224      scouts finished = [{1, 1}]
+time = 224      commanders spawned = [{1, 1}]
+time = 224      commanders finished = [{1, 1}]
+
+time = 225      db updates done = [{1, 1}]
+time = 225       client requests seen = [{1, 1}]
+time = 225      total seen = 1 max lag = 0
+time = 225      scouts spawned = [{1, 1}]
+time = 225      scouts finished = [{1, 1}]
+time = 225      commanders spawned = [{1, 1}]
+time = 225      commanders finished = [{1, 1}]
+
+time = 226      db updates done = [{1, 1}]
+time = 226       client requests seen = [{1, 1}]
+time = 226      total seen = 1 max lag = 0
+time = 226      scouts spawned = [{1, 1}]
+time = 226      scouts finished = [{1, 1}]
+time = 226      commanders spawned = [{1, 1}]
+time = 226      commanders finished = [{1, 1}]
+
+time = 227      db updates done = [{1, 1}]
+time = 227       client requests seen = [{1, 1}]
+time = 227      total seen = 1 max lag = 0
+time = 227      scouts spawned = [{1, 1}]
+time = 227      scouts finished = [{1, 1}]
+time = 227      commanders spawned = [{1, 1}]
+time = 227      commanders finished = [{1, 1}]
+
+time = 228      db updates done = [{1, 1}]
+time = 228       client requests seen = [{1, 1}]
+time = 228      total seen = 1 max lag = 0
+time = 228      scouts spawned = [{1, 1}]
+time = 228      scouts finished = [{1, 1}]
+time = 228      commanders spawned = [{1, 1}]
+time = 228      commanders finished = [{1, 1}]
+
+time = 229      db updates done = [{1, 1}]
+time = 229       client requests seen = [{1, 1}]
+time = 229      total seen = 1 max lag = 0
+time = 229      scouts spawned = [{1, 1}]
+time = 229      scouts finished = [{1, 1}]
+time = 229      commanders spawned = [{1, 1}]
+time = 229      commanders finished = [{1, 1}]
+
+time = 230      db updates done = [{1, 1}]
+time = 230       client requests seen = [{1, 1}]
+time = 230      total seen = 1 max lag = 0
+time = 230      scouts spawned = [{1, 1}]
+time = 230      scouts finished = [{1, 1}]
+time = 230      commanders spawned = [{1, 1}]
+time = 230      commanders finished = [{1, 1}]
+
+time = 231      db updates done = [{1, 1}]
+time = 231       client requests seen = [{1, 1}]
+time = 231      total seen = 1 max lag = 0
+time = 231      scouts spawned = [{1, 1}]
+time = 231      scouts finished = [{1, 1}]
+time = 231      commanders spawned = [{1, 1}]
+time = 231      commanders finished = [{1, 1}]
+
+time = 232      db updates done = [{1, 1}]
+time = 232       client requests seen = [{1, 1}]
+time = 232      total seen = 1 max lag = 0
+time = 232      scouts spawned = [{1, 1}]
+time = 232      scouts finished = [{1, 1}]
+time = 232      commanders spawned = [{1, 1}]
+time = 232      commanders finished = [{1, 1}]
+
+time = 233      db updates done = [{1, 1}]
+time = 233       client requests seen = [{1, 1}]
+time = 233      total seen = 1 max lag = 0
+time = 233      scouts spawned = [{1, 1}]
+time = 233      scouts finished = [{1, 1}]
+time = 233      commanders spawned = [{1, 1}]
+time = 233      commanders finished = [{1, 1}]
+
+time = 234      db updates done = [{1, 1}]
+time = 234       client requests seen = [{1, 1}]
+time = 234      total seen = 1 max lag = 0
+time = 234      scouts spawned = [{1, 1}]
+time = 234      scouts finished = [{1, 1}]
+time = 234      commanders spawned = [{1, 1}]
+time = 234      commanders finished = [{1, 1}]
+
+time = 235      db updates done = [{1, 1}]
+time = 235       client requests seen = [{1, 1}]
+time = 235      total seen = 1 max lag = 0
+time = 235      scouts spawned = [{1, 1}]
+time = 235      scouts finished = [{1, 1}]
+time = 235      commanders spawned = [{1, 1}]
+time = 235      commanders finished = [{1, 1}]
+
+time = 236      db updates done = [{1, 1}]
+time = 236       client requests seen = [{1, 1}]
+time = 236      total seen = 1 max lag = 0
+time = 236      scouts spawned = [{1, 1}]
+time = 236      scouts finished = [{1, 1}]
+time = 236      commanders spawned = [{1, 1}]
+time = 236      commanders finished = [{1, 1}]
+
+time = 237      db updates done = [{1, 1}]
+time = 237       client requests seen = [{1, 1}]
+time = 237      total seen = 1 max lag = 0
+time = 237      scouts spawned = [{1, 1}]
+time = 237      scouts finished = [{1, 1}]
+time = 237      commanders spawned = [{1, 1}]
+time = 237      commanders finished = [{1, 1}]
+
+time = 238      db updates done = [{1, 1}]
+time = 238       client requests seen = [{1, 1}]
+time = 238      total seen = 1 max lag = 0
+time = 238      scouts spawned = [{1, 1}]
+time = 238      scouts finished = [{1, 1}]
+time = 238      commanders spawned = [{1, 1}]
+time = 238      commanders finished = [{1, 1}]
+
+time = 239      db updates done = [{1, 1}]
+time = 239       client requests seen = [{1, 1}]
+time = 239      total seen = 1 max lag = 0
+time = 239      scouts spawned = [{1, 1}]
+time = 239      scouts finished = [{1, 1}]
+time = 239      commanders spawned = [{1, 1}]
+time = 239      commanders finished = [{1, 1}]
+
+time = 240      db updates done = [{1, 1}]
+time = 240       client requests seen = [{1, 1}]
+time = 240      total seen = 1 max lag = 0
+time = 240      scouts spawned = [{1, 1}]
+time = 240      scouts finished = [{1, 1}]
+time = 240      commanders spawned = [{1, 1}]
+time = 240      commanders finished = [{1, 1}]
+
+time = 241      db updates done = [{1, 1}]
+time = 241       client requests seen = [{1, 1}]
+time = 241      total seen = 1 max lag = 0
+time = 241      scouts spawned = [{1, 1}]
+time = 241      scouts finished = [{1, 1}]
+time = 241      commanders spawned = [{1, 1}]
+time = 241      commanders finished = [{1, 1}]
+
+time = 242      db updates done = [{1, 1}]
+time = 242       client requests seen = [{1, 1}]
+time = 242      total seen = 1 max lag = 0
+time = 242      scouts spawned = [{1, 1}]
+time = 242      scouts finished = [{1, 1}]
+time = 242      commanders spawned = [{1, 1}]
+time = 242      commanders finished = [{1, 1}]
+
+time = 243      db updates done = [{1, 1}]
+time = 243       client requests seen = [{1, 1}]
+time = 243      total seen = 1 max lag = 0
+time = 243      scouts spawned = [{1, 1}]
+time = 243      scouts finished = [{1, 1}]
+time = 243      commanders spawned = [{1, 1}]
+time = 243      commanders finished = [{1, 1}]
+
+time = 244      db updates done = [{1, 1}]
+time = 244       client requests seen = [{1, 1}]
+time = 244      total seen = 1 max lag = 0
+time = 244      scouts spawned = [{1, 1}]
+time = 244      scouts finished = [{1, 1}]
+time = 244      commanders spawned = [{1, 1}]
+time = 244      commanders finished = [{1, 1}]
+
+time = 245      db updates done = [{1, 1}]
+time = 245       client requests seen = [{1, 1}]
+time = 245      total seen = 1 max lag = 0
+time = 245      scouts spawned = [{1, 1}]
+time = 245      scouts finished = [{1, 1}]
+time = 245      commanders spawned = [{1, 1}]
+time = 245      commanders finished = [{1, 1}]
+
+time = 246      db updates done = [{1, 1}]
+time = 246       client requests seen = [{1, 1}]
+time = 246      total seen = 1 max lag = 0
+time = 246      scouts spawned = [{1, 1}]
+time = 246      scouts finished = [{1, 1}]
+time = 246      commanders spawned = [{1, 1}]
+time = 246      commanders finished = [{1, 1}]
+
+time = 247      db updates done = [{1, 1}]
+time = 247       client requests seen = [{1, 1}]
+time = 247      total seen = 1 max lag = 0
+time = 247      scouts spawned = [{1, 1}]
+time = 247      scouts finished = [{1, 1}]
+time = 247      commanders spawned = [{1, 1}]
+time = 247      commanders finished = [{1, 1}]
+
+time = 248      db updates done = [{1, 1}]
+time = 248       client requests seen = [{1, 1}]
+time = 248      total seen = 1 max lag = 0
+time = 248      scouts spawned = [{1, 1}]
+time = 248      scouts finished = [{1, 1}]
+time = 248      commanders spawned = [{1, 1}]
+time = 248      commanders finished = [{1, 1}]
+
+time = 249      db updates done = [{1, 1}]
+time = 249       client requests seen = [{1, 1}]
+time = 249      total seen = 1 max lag = 0
+time = 249      scouts spawned = [{1, 1}]
+time = 249      scouts finished = [{1, 1}]
+time = 249      commanders spawned = [{1, 1}]
+time = 249      commanders finished = [{1, 1}]
+
+time = 250      db updates done = [{1, 1}]
+time = 250       client requests seen = [{1, 1}]
+time = 250      total seen = 1 max lag = 0
+time = 250      scouts spawned = [{1, 1}]
+time = 250      scouts finished = [{1, 1}]
+time = 250      commanders spawned = [{1, 1}]
+time = 250      commanders finished = [{1, 1}]
+
+time = 251      db updates done = [{1, 1}]
+time = 251       client requests seen = [{1, 1}]
+time = 251      total seen = 1 max lag = 0
+time = 251      scouts spawned = [{1, 1}]
+time = 251      scouts finished = [{1, 1}]
+time = 251      commanders spawned = [{1, 1}]
+time = 251      commanders finished = [{1, 1}]
+
+time = 252      db updates done = [{1, 1}]
+time = 252       client requests seen = [{1, 1}]
+time = 252      total seen = 1 max lag = 0
+time = 252      scouts spawned = [{1, 1}]
+time = 252      scouts finished = [{1, 1}]
+time = 252      commanders spawned = [{1, 1}]
+time = 252      commanders finished = [{1, 1}]
+
+time = 253      db updates done = [{1, 1}]
+time = 253       client requests seen = [{1, 1}]
+time = 253      total seen = 1 max lag = 0
+time = 253      scouts spawned = [{1, 1}]
+time = 253      scouts finished = [{1, 1}]
+time = 253      commanders spawned = [{1, 1}]
+time = 253      commanders finished = [{1, 1}]
+
+time = 254      db updates done = [{1, 1}]
+time = 254       client requests seen = [{1, 1}]
+time = 254      total seen = 1 max lag = 0
+time = 254      scouts spawned = [{1, 1}]
+time = 254      scouts finished = [{1, 1}]
+time = 254      commanders spawned = [{1, 1}]
+time = 254      commanders finished = [{1, 1}]
+
+time = 255      db updates done = [{1, 1}]
+time = 255       client requests seen = [{1, 1}]
+time = 255      total seen = 1 max lag = 0
+time = 255      scouts spawned = [{1, 1}]
+time = 255      scouts finished = [{1, 1}]
+time = 255      commanders spawned = [{1, 1}]
+time = 255      commanders finished = [{1, 1}]
+
+time = 256      db updates done = [{1, 1}]
+time = 256       client requests seen = [{1, 1}]
+time = 256      total seen = 1 max lag = 0
+time = 256      scouts spawned = [{1, 1}]
+time = 256      scouts finished = [{1, 1}]
+time = 256      commanders spawned = [{1, 1}]
+time = 256      commanders finished = [{1, 1}]
+
+time = 257      db updates done = [{1, 1}]
+time = 257       client requests seen = [{1, 1}]
+time = 257      total seen = 1 max lag = 0
+time = 257      scouts spawned = [{1, 1}]
+time = 257      scouts finished = [{1, 1}]
+time = 257      commanders spawned = [{1, 1}]
+time = 257      commanders finished = [{1, 1}]
+
+time = 258      db updates done = [{1, 1}]
+time = 258       client requests seen = [{1, 1}]
+time = 258      total seen = 1 max lag = 0
+time = 258      scouts spawned = [{1, 1}]
+time = 258      scouts finished = [{1, 1}]
+time = 258      commanders spawned = [{1, 1}]
+time = 258      commanders finished = [{1, 1}]
+
+time = 259      db updates done = [{1, 1}]
+time = 259       client requests seen = [{1, 1}]
+time = 259      total seen = 1 max lag = 0
+time = 259      scouts spawned = [{1, 1}]
+time = 259      scouts finished = [{1, 1}]
+time = 259      commanders spawned = [{1, 1}]
+time = 259      commanders finished = [{1, 1}]
+
+time = 260      db updates done = [{1, 1}]
+time = 260       client requests seen = [{1, 1}]
+time = 260      total seen = 1 max lag = 0
+time = 260      scouts spawned = [{1, 1}]
+time = 260      scouts finished = [{1, 1}]
+time = 260      commanders spawned = [{1, 1}]
+time = 260      commanders finished = [{1, 1}]
+
+time = 261      db updates done = [{1, 1}]
+time = 261       client requests seen = [{1, 1}]
+time = 261      total seen = 1 max lag = 0
+time = 261      scouts spawned = [{1, 1}]
+time = 261      scouts finished = [{1, 1}]
+time = 261      commanders spawned = [{1, 1}]
+time = 261      commanders finished = [{1, 1}]
+
+time = 262      db updates done = [{1, 1}]
+time = 262       client requests seen = [{1, 1}]
+time = 262      total seen = 1 max lag = 0
+time = 262      scouts spawned = [{1, 1}]
+time = 262      scouts finished = [{1, 1}]
+time = 262      commanders spawned = [{1, 1}]
+time = 262      commanders finished = [{1, 1}]
+
+time = 263      db updates done = [{1, 1}]
+time = 263       client requests seen = [{1, 1}]
+time = 263      total seen = 1 max lag = 0
+time = 263      scouts spawned = [{1, 1}]
+time = 263      scouts finished = [{1, 1}]
+time = 263      commanders spawned = [{1, 1}]
+time = 263      commanders finished = [{1, 1}]
+
+time = 264      db updates done = [{1, 1}]
+time = 264       client requests seen = [{1, 1}]
+time = 264      total seen = 1 max lag = 0
+time = 264      scouts spawned = [{1, 1}]
+time = 264      scouts finished = [{1, 1}]
+time = 264      commanders spawned = [{1, 1}]
+time = 264      commanders finished = [{1, 1}]
+
+time = 265      db updates done = [{1, 1}]
+time = 265       client requests seen = [{1, 1}]
+time = 265      total seen = 1 max lag = 0
+time = 265      scouts spawned = [{1, 1}]
+time = 265      scouts finished = [{1, 1}]
+time = 265      commanders spawned = [{1, 1}]
+time = 265      commanders finished = [{1, 1}]
+
+time = 266      db updates done = [{1, 1}]
+time = 266       client requests seen = [{1, 1}]
+time = 266      total seen = 1 max lag = 0
+time = 266      scouts spawned = [{1, 1}]
+time = 266      scouts finished = [{1, 1}]
+time = 266      commanders spawned = [{1, 1}]
+time = 266      commanders finished = [{1, 1}]
+
+time = 267      db updates done = [{1, 1}]
+time = 267       client requests seen = [{1, 1}]
+time = 267      total seen = 1 max lag = 0
+time = 267      scouts spawned = [{1, 1}]
+time = 267      scouts finished = [{1, 1}]
+time = 267      commanders spawned = [{1, 1}]
+time = 267      commanders finished = [{1, 1}]
+
+time = 268      db updates done = [{1, 1}]
+time = 268       client requests seen = [{1, 1}]
+time = 268      total seen = 1 max lag = 0
+time = 268      scouts spawned = [{1, 1}]
+time = 268      scouts finished = [{1, 1}]
+time = 268      commanders spawned = [{1, 1}]
+time = 268      commanders finished = [{1, 1}]
+
+time = 269      db updates done = [{1, 1}]
+time = 269       client requests seen = [{1, 1}]
+time = 269      total seen = 1 max lag = 0
+time = 269      scouts spawned = [{1, 1}]
+time = 269      scouts finished = [{1, 1}]
+time = 269      commanders spawned = [{1, 1}]
+time = 269      commanders finished = [{1, 1}]
+
+time = 270      db updates done = [{1, 1}]
+time = 270       client requests seen = [{1, 1}]
+time = 270      total seen = 1 max lag = 0
+time = 270      scouts spawned = [{1, 1}]
+time = 270      scouts finished = [{1, 1}]
+time = 270      commanders spawned = [{1, 1}]
+time = 270      commanders finished = [{1, 1}]
+
+time = 271      db updates done = [{1, 1}]
+time = 271       client requests seen = [{1, 1}]
+time = 271      total seen = 1 max lag = 0
+time = 271      scouts spawned = [{1, 1}]
+time = 271      scouts finished = [{1, 1}]
+time = 271      commanders spawned = [{1, 1}]
+time = 271      commanders finished = [{1, 1}]
+
+time = 272      db updates done = [{1, 1}]
+time = 272       client requests seen = [{1, 1}]
+time = 272      total seen = 1 max lag = 0
+time = 272      scouts spawned = [{1, 1}]
+time = 272      scouts finished = [{1, 1}]
+time = 272      commanders spawned = [{1, 1}]
+time = 272      commanders finished = [{1, 1}]
+
+time = 273      db updates done = [{1, 1}]
+time = 273       client requests seen = [{1, 1}]
+time = 273      total seen = 1 max lag = 0
+time = 273      scouts spawned = [{1, 1}]
+time = 273      scouts finished = [{1, 1}]
+time = 273      commanders spawned = [{1, 1}]
+time = 273      commanders finished = [{1, 1}]
+
+time = 274      db updates done = [{1, 1}]
+time = 274       client requests seen = [{1, 1}]
+time = 274      total seen = 1 max lag = 0
+time = 274      scouts spawned = [{1, 1}]
+time = 274      scouts finished = [{1, 1}]
+time = 274      commanders spawned = [{1, 1}]
+time = 274      commanders finished = [{1, 1}]
+
+time = 275      db updates done = [{1, 1}]
+time = 275       client requests seen = [{1, 1}]
+time = 275      total seen = 1 max lag = 0
+time = 275      scouts spawned = [{1, 1}]
+time = 275      scouts finished = [{1, 1}]
+time = 275      commanders spawned = [{1, 1}]
+time = 275      commanders finished = [{1, 1}]
+
+time = 276      db updates done = [{1, 1}]
+time = 276       client requests seen = [{1, 1}]
+time = 276      total seen = 1 max lag = 0
+time = 276      scouts spawned = [{1, 1}]
+time = 276      scouts finished = [{1, 1}]
+time = 276      commanders spawned = [{1, 1}]
+time = 276      commanders finished = [{1, 1}]
+
+time = 277      db updates done = [{1, 1}]
+time = 277       client requests seen = [{1, 1}]
+time = 277      total seen = 1 max lag = 0
+time = 277      scouts spawned = [{1, 1}]
+time = 277      scouts finished = [{1, 1}]
+time = 277      commanders spawned = [{1, 1}]
+time = 277      commanders finished = [{1, 1}]
+
+time = 278      db updates done = [{1, 1}]
+time = 278       client requests seen = [{1, 1}]
+time = 278      total seen = 1 max lag = 0
+time = 278      scouts spawned = [{1, 1}]
+time = 278      scouts finished = [{1, 1}]
+time = 278      commanders spawned = [{1, 1}]
+time = 278      commanders finished = [{1, 1}]
+
+time = 279      db updates done = [{1, 1}]
+time = 279       client requests seen = [{1, 1}]
+time = 279      total seen = 1 max lag = 0
+time = 279      scouts spawned = [{1, 1}]
+time = 279      scouts finished = [{1, 1}]
+time = 279      commanders spawned = [{1, 1}]
+time = 279      commanders finished = [{1, 1}]
+
+time = 280      db updates done = [{1, 1}]
+time = 280       client requests seen = [{1, 1}]
+time = 280      total seen = 1 max lag = 0
+time = 280      scouts spawned = [{1, 1}]
+time = 280      scouts finished = [{1, 1}]
+time = 280      commanders spawned = [{1, 1}]
+time = 280      commanders finished = [{1, 1}]
+
+time = 281      db updates done = [{1, 1}]
+time = 281       client requests seen = [{1, 1}]
+time = 281      total seen = 1 max lag = 0
+time = 281      scouts spawned = [{1, 1}]
+time = 281      scouts finished = [{1, 1}]
+time = 281      commanders spawned = [{1, 1}]
+time = 281      commanders finished = [{1, 1}]
+
+time = 282      db updates done = [{1, 1}]
+time = 282       client requests seen = [{1, 1}]
+time = 282      total seen = 1 max lag = 0
+time = 282      scouts spawned = [{1, 1}]
+time = 282      scouts finished = [{1, 1}]
+time = 282      commanders spawned = [{1, 1}]
+time = 282      commanders finished = [{1, 1}]
+
+time = 283      db updates done = [{1, 1}]
+time = 283       client requests seen = [{1, 1}]
+time = 283      total seen = 1 max lag = 0
+time = 283      scouts spawned = [{1, 1}]
+time = 283      scouts finished = [{1, 1}]
+time = 283      commanders spawned = [{1, 1}]
+time = 283      commanders finished = [{1, 1}]
+
+time = 284      db updates done = [{1, 1}]
+time = 284       client requests seen = [{1, 1}]
+time = 284      total seen = 1 max lag = 0
+time = 284      scouts spawned = [{1, 1}]
+time = 284      scouts finished = [{1, 1}]
+time = 284      commanders spawned = [{1, 1}]
+time = 284      commanders finished = [{1, 1}]
+
+time = 285      db updates done = [{1, 1}]
+time = 285       client requests seen = [{1, 1}]
+time = 285      total seen = 1 max lag = 0
+time = 285      scouts spawned = [{1, 1}]
+time = 285      scouts finished = [{1, 1}]
+time = 285      commanders spawned = [{1, 1}]
+time = 285      commanders finished = [{1, 1}]
+
+time = 286      db updates done = [{1, 1}]
+time = 286       client requests seen = [{1, 1}]
+time = 286      total seen = 1 max lag = 0
+time = 286      scouts spawned = [{1, 1}]
+time = 286      scouts finished = [{1, 1}]
+time = 286      commanders spawned = [{1, 1}]
+time = 286      commanders finished = [{1, 1}]
+
+time = 287      db updates done = [{1, 1}]
+time = 287       client requests seen = [{1, 1}]
+time = 287      total seen = 1 max lag = 0
+time = 287      scouts spawned = [{1, 1}]
+time = 287      scouts finished = [{1, 1}]
+time = 287      commanders spawned = [{1, 1}]
+time = 287      commanders finished = [{1, 1}]
+
+time = 288      db updates done = [{1, 1}]
+time = 288       client requests seen = [{1, 1}]
+time = 288      total seen = 1 max lag = 0
+time = 288      scouts spawned = [{1, 1}]
+time = 288      scouts finished = [{1, 1}]
+time = 288      commanders spawned = [{1, 1}]
+time = 288      commanders finished = [{1, 1}]
+
+time = 289      db updates done = [{1, 1}]
+time = 289       client requests seen = [{1, 1}]
+time = 289      total seen = 1 max lag = 0
+time = 289      scouts spawned = [{1, 1}]
+time = 289      scouts finished = [{1, 1}]
+time = 289      commanders spawned = [{1, 1}]
+time = 289      commanders finished = [{1, 1}]
+
+time = 290      db updates done = [{1, 1}]
+time = 290       client requests seen = [{1, 1}]
+time = 290      total seen = 1 max lag = 0
+time = 290      scouts spawned = [{1, 1}]
+time = 290      scouts finished = [{1, 1}]
+time = 290      commanders spawned = [{1, 1}]
+time = 290      commanders finished = [{1, 1}]
+
+time = 291      db updates done = [{1, 1}]
+time = 291       client requests seen = [{1, 1}]
+time = 291      total seen = 1 max lag = 0
+time = 291      scouts spawned = [{1, 1}]
+time = 291      scouts finished = [{1, 1}]
+time = 291      commanders spawned = [{1, 1}]
+time = 291      commanders finished = [{1, 1}]
+
+time = 292      db updates done = [{1, 1}]
+time = 292       client requests seen = [{1, 1}]
+time = 292      total seen = 1 max lag = 0
+time = 292      scouts spawned = [{1, 1}]
+time = 292      scouts finished = [{1, 1}]
+time = 292      commanders spawned = [{1, 1}]
+time = 292      commanders finished = [{1, 1}]
+
+time = 293      db updates done = [{1, 1}]
+time = 293       client requests seen = [{1, 1}]
+time = 293      total seen = 1 max lag = 0
+time = 293      scouts spawned = [{1, 1}]
+time = 293      scouts finished = [{1, 1}]
+time = 293      commanders spawned = [{1, 1}]
+time = 293      commanders finished = [{1, 1}]
+
+time = 294      db updates done = [{1, 1}]
+time = 294       client requests seen = [{1, 1}]
+time = 294      total seen = 1 max lag = 0
+time = 294      scouts spawned = [{1, 1}]
+time = 294      scouts finished = [{1, 1}]
+time = 294      commanders spawned = [{1, 1}]
+time = 294      commanders finished = [{1, 1}]
+
+time = 295      db updates done = [{1, 1}]
+time = 295       client requests seen = [{1, 1}]
+time = 295      total seen = 1 max lag = 0
+time = 295      scouts spawned = [{1, 1}]
+time = 295      scouts finished = [{1, 1}]
+time = 295      commanders spawned = [{1, 1}]
+time = 295      commanders finished = [{1, 1}]
+
+time = 296      db updates done = [{1, 1}]
+time = 296       client requests seen = [{1, 1}]
+time = 296      total seen = 1 max lag = 0
+time = 296      scouts spawned = [{1, 1}]
+time = 296      scouts finished = [{1, 1}]
+time = 296      commanders spawned = [{1, 1}]
+time = 296      commanders finished = [{1, 1}]
+
+time = 297      db updates done = [{1, 1}]
+time = 297       client requests seen = [{1, 1}]
+time = 297      total seen = 1 max lag = 0
+time = 297      scouts spawned = [{1, 1}]
+time = 297      scouts finished = [{1, 1}]
+time = 297      commanders spawned = [{1, 1}]
+time = 297      commanders finished = [{1, 1}]
+
+time = 298      db updates done = [{1, 1}]
+time = 298       client requests seen = [{1, 1}]
+time = 298      total seen = 1 max lag = 0
+time = 298      scouts spawned = [{1, 1}]
+time = 298      scouts finished = [{1, 1}]
+time = 298      commanders spawned = [{1, 1}]
+time = 298      commanders finished = [{1, 1}]
+
+time = 299      db updates done = [{1, 1}]
+time = 299       client requests seen = [{1, 1}]
+time = 299      total seen = 1 max lag = 0
+time = 299      scouts spawned = [{1, 1}]
+time = 299      scouts finished = [{1, 1}]
+time = 299      commanders spawned = [{1, 1}]
+time = 299      commanders finished = [{1, 1}]
+
+time = 300      db updates done = [{1, 1}]
+time = 300       client requests seen = [{1, 1}]
+time = 300      total seen = 1 max lag = 0
+time = 300      scouts spawned = [{1, 1}]
+time = 300      scouts finished = [{1, 1}]
+time = 300      commanders spawned = [{1, 1}]
+time = 300      commanders finished = [{1, 1}]
+
+time = 301      db updates done = [{1, 1}]
+time = 301       client requests seen = [{1, 1}]
+time = 301      total seen = 1 max lag = 0
+time = 301      scouts spawned = [{1, 1}]
+time = 301      scouts finished = [{1, 1}]
+time = 301      commanders spawned = [{1, 1}]
+time = 301      commanders finished = [{1, 1}]
+
+time = 302      db updates done = [{1, 1}]
+time = 302       client requests seen = [{1, 1}]
+time = 302      total seen = 1 max lag = 0
+time = 302      scouts spawned = [{1, 1}]
+time = 302      scouts finished = [{1, 1}]
+time = 302      commanders spawned = [{1, 1}]
+time = 302      commanders finished = [{1, 1}]
+
+time = 303      db updates done = [{1, 1}]
+time = 303       client requests seen = [{1, 1}]
+time = 303      total seen = 1 max lag = 0
+time = 303      scouts spawned = [{1, 1}]
+time = 303      scouts finished = [{1, 1}]
+time = 303      commanders spawned = [{1, 1}]
+time = 303      commanders finished = [{1, 1}]
+
+time = 304      db updates done = [{1, 1}]
+time = 304       client requests seen = [{1, 1}]
+time = 304      total seen = 1 max lag = 0
+time = 304      scouts spawned = [{1, 1}]
+time = 304      scouts finished = [{1, 1}]
+time = 304      commanders spawned = [{1, 1}]
+time = 304      commanders finished = [{1, 1}]
+
+time = 305      db updates done = [{1, 1}]
+time = 305       client requests seen = [{1, 1}]
+time = 305      total seen = 1 max lag = 0
+time = 305      scouts spawned = [{1, 1}]
+time = 305      scouts finished = [{1, 1}]
+time = 305      commanders spawned = [{1, 1}]
+time = 305      commanders finished = [{1, 1}]
+
+time = 306      db updates done = [{1, 1}]
+time = 306       client requests seen = [{1, 1}]
+time = 306      total seen = 1 max lag = 0
+time = 306      scouts spawned = [{1, 1}]
+time = 306      scouts finished = [{1, 1}]
+time = 306      commanders spawned = [{1, 1}]
+time = 306      commanders finished = [{1, 1}]
+
+time = 307      db updates done = [{1, 1}]
+time = 307       client requests seen = [{1, 1}]
+time = 307      total seen = 1 max lag = 0
+time = 307      scouts spawned = [{1, 1}]
+time = 307      scouts finished = [{1, 1}]
+time = 307      commanders spawned = [{1, 1}]
+time = 307      commanders finished = [{1, 1}]
+
+time = 308      db updates done = [{1, 1}]
+time = 308       client requests seen = [{1, 1}]
+time = 308      total seen = 1 max lag = 0
+time = 308      scouts spawned = [{1, 1}]
+time = 308      scouts finished = [{1, 1}]
+time = 308      commanders spawned = [{1, 1}]
+time = 308      commanders finished = [{1, 1}]
+
+time = 309      db updates done = [{1, 1}]
+time = 309       client requests seen = [{1, 1}]
+time = 309      total seen = 1 max lag = 0
+time = 309      scouts spawned = [{1, 1}]
+time = 309      scouts finished = [{1, 1}]
+time = 309      commanders spawned = [{1, 1}]
+time = 309      commanders finished = [{1, 1}]
+
+time = 310      db updates done = [{1, 1}]
+time = 310       client requests seen = [{1, 1}]
+time = 310      total seen = 1 max lag = 0
+time = 310      scouts spawned = [{1, 1}]
+time = 310      scouts finished = [{1, 1}]
+time = 310      commanders spawned = [{1, 1}]
+time = 310      commanders finished = [{1, 1}]
+
+time = 311      db updates done = [{1, 1}]
+time = 311       client requests seen = [{1, 1}]
+time = 311      total seen = 1 max lag = 0
+time = 311      scouts spawned = [{1, 1}]
+time = 311      scouts finished = [{1, 1}]
+time = 311      commanders spawned = [{1, 1}]
+time = 311      commanders finished = [{1, 1}]
+
+time = 312      db updates done = [{1, 1}]
+time = 312       client requests seen = [{1, 1}]
+time = 312      total seen = 1 max lag = 0
+time = 312      scouts spawned = [{1, 1}]
+time = 312      scouts finished = [{1, 1}]
+time = 312      commanders spawned = [{1, 1}]
+time = 312      commanders finished = [{1, 1}]
+
+time = 313      db updates done = [{1, 1}]
+time = 313       client requests seen = [{1, 1}]
+time = 313      total seen = 1 max lag = 0
+time = 313      scouts spawned = [{1, 1}]
+time = 313      scouts finished = [{1, 1}]
+time = 313      commanders spawned = [{1, 1}]
+time = 313      commanders finished = [{1, 1}]
+
+time = 314      db updates done = [{1, 1}]
+time = 314       client requests seen = [{1, 1}]
+time = 314      total seen = 1 max lag = 0
+time = 314      scouts spawned = [{1, 1}]
+time = 314      scouts finished = [{1, 1}]
+time = 314      commanders spawned = [{1, 1}]
+time = 314      commanders finished = [{1, 1}]
+
+time = 315      db updates done = [{1, 1}]
+time = 315       client requests seen = [{1, 1}]
+time = 315      total seen = 1 max lag = 0
+time = 315      scouts spawned = [{1, 1}]
+time = 315      scouts finished = [{1, 1}]
+time = 315      commanders spawned = [{1, 1}]
+time = 315      commanders finished = [{1, 1}]
+
+time = 316      db updates done = [{1, 1}]
+time = 316       client requests seen = [{1, 1}]
+time = 316      total seen = 1 max lag = 0
+time = 316      scouts spawned = [{1, 1}]
+time = 316      scouts finished = [{1, 1}]
+time = 316      commanders spawned = [{1, 1}]
+time = 316      commanders finished = [{1, 1}]
+
+time = 317      db updates done = [{1, 1}]
+time = 317       client requests seen = [{1, 1}]
+time = 317      total seen = 1 max lag = 0
+time = 317      scouts spawned = [{1, 1}]
+time = 317      scouts finished = [{1, 1}]
+time = 317      commanders spawned = [{1, 1}]
+time = 317      commanders finished = [{1, 1}]
+
+time = 318      db updates done = [{1, 1}]
+time = 318       client requests seen = [{1, 1}]
+time = 318      total seen = 1 max lag = 0
+time = 318      scouts spawned = [{1, 1}]
+time = 318      scouts finished = [{1, 1}]
+time = 318      commanders spawned = [{1, 1}]
+time = 318      commanders finished = [{1, 1}]
+
+time = 319      db updates done = [{1, 1}]
+time = 319       client requests seen = [{1, 1}]
+time = 319      total seen = 1 max lag = 0
+time = 319      scouts spawned = [{1, 1}]
+time = 319      scouts finished = [{1, 1}]
+time = 319      commanders spawned = [{1, 1}]
+time = 319      commanders finished = [{1, 1}]
+
+time = 320      db updates done = [{1, 1}]
+time = 320       client requests seen = [{1, 1}]
+time = 320      total seen = 1 max lag = 0
+time = 320      scouts spawned = [{1, 1}]
+time = 320      scouts finished = [{1, 1}]
+time = 320      commanders spawned = [{1, 1}]
+time = 320      commanders finished = [{1, 1}]
+
+time = 321      db updates done = [{1, 1}]
+time = 321       client requests seen = [{1, 1}]
+time = 321      total seen = 1 max lag = 0
+time = 321      scouts spawned = [{1, 1}]
+time = 321      scouts finished = [{1, 1}]
+time = 321      commanders spawned = [{1, 1}]
+time = 321      commanders finished = [{1, 1}]
+
+time = 322      db updates done = [{1, 1}]
+time = 322       client requests seen = [{1, 1}]
+time = 322      total seen = 1 max lag = 0
+time = 322      scouts spawned = [{1, 1}]
+time = 322      scouts finished = [{1, 1}]
+time = 322      commanders spawned = [{1, 1}]
+time = 322      commanders finished = [{1, 1}]
+
+time = 323      db updates done = [{1, 1}]
+time = 323       client requests seen = [{1, 1}]
+time = 323      total seen = 1 max lag = 0
+time = 323      scouts spawned = [{1, 1}]
+time = 323      scouts finished = [{1, 1}]
+time = 323      commanders spawned = [{1, 1}]
+time = 323      commanders finished = [{1, 1}]
+
+time = 324      db updates done = [{1, 1}]
+time = 324       client requests seen = [{1, 1}]
+time = 324      total seen = 1 max lag = 0
+time = 324      scouts spawned = [{1, 1}]
+time = 324      scouts finished = [{1, 1}]
+time = 324      commanders spawned = [{1, 1}]
+time = 324      commanders finished = [{1, 1}]
+
+time = 325      db updates done = [{1, 1}]
+time = 325       client requests seen = [{1, 1}]
+time = 325      total seen = 1 max lag = 0
+time = 325      scouts spawned = [{1, 1}]
+time = 325      scouts finished = [{1, 1}]
+time = 325      commanders spawned = [{1, 1}]
+time = 325      commanders finished = [{1, 1}]
+
+time = 326      db updates done = [{1, 1}]
+time = 326       client requests seen = [{1, 1}]
+time = 326      total seen = 1 max lag = 0
+time = 326      scouts spawned = [{1, 1}]
+time = 326      scouts finished = [{1, 1}]
+time = 326      commanders spawned = [{1, 1}]
+time = 326      commanders finished = [{1, 1}]
+
+time = 327      db updates done = [{1, 1}]
+time = 327       client requests seen = [{1, 1}]
+time = 327      total seen = 1 max lag = 0
+time = 327      scouts spawned = [{1, 1}]
+time = 327      scouts finished = [{1, 1}]
+time = 327      commanders spawned = [{1, 1}]
+time = 327      commanders finished = [{1, 1}]
+
+time = 328      db updates done = [{1, 1}]
+time = 328       client requests seen = [{1, 1}]
+time = 328      total seen = 1 max lag = 0
+time = 328      scouts spawned = [{1, 1}]
+time = 328      scouts finished = [{1, 1}]
+time = 328      commanders spawned = [{1, 1}]
+time = 328      commanders finished = [{1, 1}]
+
+time = 329      db updates done = [{1, 1}]
+time = 329       client requests seen = [{1, 1}]
+time = 329      total seen = 1 max lag = 0
+time = 329      scouts spawned = [{1, 1}]
+time = 329      scouts finished = [{1, 1}]
+time = 329      commanders spawned = [{1, 1}]
+time = 329      commanders finished = [{1, 1}]
+
+time = 330      db updates done = [{1, 1}]
+time = 330       client requests seen = [{1, 1}]
+time = 330      total seen = 1 max lag = 0
+time = 330      scouts spawned = [{1, 1}]
+time = 330      scouts finished = [{1, 1}]
+time = 330      commanders spawned = [{1, 1}]
+time = 330      commanders finished = [{1, 1}]
+
+
+BREAK: (a)bort (A
+)Bb
+R
+oBEBrRARtEKE A:AwK K
+i:(
+:Bt aB Rh()R(E ab
+EaAd)oBA)Ku:brRKbm
+ ot
+E:op
+(r BA r Bat
+(RK
+(t(R) BAE:Ba cEb(R)A R)()AoAEbK(EbAoKr)Ao:aAo)n:tbKr )Krbt  o:t(b:toi((r  ao  rnaAt(w)r((tu)) aibtaA ebbw)to ))w ooibhr(bbi(rrto tAootptthrd )rrh)   tu(btt r(wd mAo  doAiu(p)r(wuc)bmA btAm op)(o )pir bcr
+wb
+ nt(o)tBioB(f cro RtrRcow)tnwEhtE) io tiA  Ao(tnwitKdwKnihtinh:ui:t) itu  mt indnhed(ph(nfuu  ua  auomed(m)(d)ep uppbcub 
+ (m) o)mo( (ppr(roprp c) octn t) )r(c) t( r ooc o(ic(o nc)inAn)Ac t ont)uo)  iinfibenbi(nntono tonlufi ur(irf)eon(etpntoo  ui  )u  a((e)(wrew(dpi npio iie))(f)tc(t)drnporh phn of)o i) f(cor
+cdnrdov o  ufou)i
+c imocm
+en   np  p rf i f (i  so n o(in( i  f  c)fc o( o ()no) ni  (iof o  ) (l)no(n (n(i)ntit(kfl)ofi
+)il)o)naon nn)iofdu fuol
+aoe
+e oeal dd    d  e  ( 
+(e( d( p  pdD  v )  ) ) () r( r(b ve ol ov- )r c) c)t(es( o 
+ ealrilia Birb)so)nd(RnsloinofelEfieao aod)Aoosdn(d  oK n e ke((a:( (d()divd i(d ki ))e()k)()l(nedan)ivilvfr )fis)l )os(boltel(eivolrr Dr
+o)r
+ is()s net (biDbi  r  Duo)-o (s( )tnbtn kiA bi -a  )o) -o(tb( inb tnkalk l o a)be)(l(r(b
+ilsil ktllle l)() )els(loDiwos  d a)lia (()(dbltd(DdiDe- hed))s)dt( d)bitb aDd i-sr-(b)u(sttitvlbmvtarba)e-p)rbiubest eilbtlr a(rbeuies(bcsustosidl)it in o)eooi(o(nisnnodn
+d s t n))(t(i(i
+ikrdnk
+ss)i)u)ttibieirrlus liiltt(lbb irp uu(oi)(ttDnbrDii)uo)oob
+tcbnn-i -toit
+
+annabfbl
+ole es(s i ()(ndf)ois
+t r i b u t i o(nl)
+oaded (v)ersion (k)ill (D)b-tables (d)istribution
+
+BR
+EBARKE:A K(:a )(bao)rbto r(tA )(bAo)rbto rwti twhi tdhu mdpu m(pc )(ocn)toinntuien u(ep )(rpo)cr oicn fion f(
+
+oi
+BB )BRR(nREEifEAA)oAKKnK::f
+:  o  ((
+ (a
+a
+B
+ a)B) RB )bRb ER boEo AE orAr KA rtKt :K(t :   :l ( ( ( )(A(A(a(oA)a)l)aa)b)b)b)dbobooobeororarodrtrtdtr t t e t( w wd( vwi(i A()itAt()Aeth)hvb)rh b )obs doderoidururtroumtms tnmp piw  p w oiw( (i(ntik(ctc ht)c)h)( hi)o okd londn)udlntutimu timilpm(inpnl pDnu u ( )ue(e(c(be c D)c- ()()o)t(popbnoap)n)-tnb)rtrtitlroioanieocncbunsc u leu  ieie e(in ns( dnf(f p()fopo()pio ) dr)s (r()ort(ioiicori)c)s ci)n nti bnfifrniufonoifntofbofi
+o
+u oo
+   t( n  ( ii(  i o)i
+  ) nn)  n fn  f 
+of  o o ((
+(l
+l 
+l) )  )o o  oa a  ad d  de e  ed d  d   (  (((l((vlv)lv)))o))eoeaoerardarsdsedsieideiodo don n( n ( v( (v()v(k)ke)k)e)re)irisrilslislliloil o no (n( n(D D( D)()k()bkb)kb-)-i)-titlitalallablb lbl l( le(eD(esDs)Ds ) b) (b(-b(d-dt-d)t)at)iaibaisbslbstlteltrerserisi sib b( bu(ud(utdt)dti)ii)ioiosionsntsntrt
+r
+ir
+ibibubututitioiononn
+
+
+
+BR
+EBARKE:A K(:a )(bao)rbto r(tA )(bAo)rbto rwti twhi tdhu mdpu m(pc )(ocn)toinntuien u(ep )(rpo)cr oicn fion f(oi )(nif)onf
+o  
+          ( l )(ola)doeadd e(dv )(evr)seirosni o(nk )(ikl)li l(lD )(bD-)tba-btlaebsl e(sd )(ids)tirsitbruitbiuotnio
+n
+
+
+BRE
+ABKR:E A(Ka:) b(oar)tb o(rAt) b(oAr)tb owritt hw idtuhm pd u(mcp) o(nct)ionnutei 
+n(BupRe)E rA(oKpc:)  ri(onacf) obi on(rfito)  n((fAio))bn
+of ro t  
+ w  i  t  h (  ld )u om(apld )e(odca )d(oevnd)t ei(rnvsu)ieeo rn(s pi()okrn)o ic(l kli) ni(flDol)  b((-iDt))anbbf-loteas
+b  l( ed s)  i (s dt )r(iilsb)tuortaiidboeundt i
+(ovn)e
+rsion (k)ill (D)b-tables (d)istribution
+
+BR
+EBARKE:A K(:a )(bao)rbto r(tA )(bAo)rbto rwti 
+twBhiR tEdhAu Kmd:pu  m((pac ))(bocon)rtotin nt(uiAen) ub(eop r)(trp o)wcri otichn  fidonu fm(opi  )((nicf))onofn
+ot i 
+n  u  e     (  p( )l r)(oolca) doieanddf eo(d v ()(iev)r)nsefiroosni
+ o (n k  )( ik l) li  l((llD ))(obDa-)dtbea-dbt la(ebvsl) ee(srd s)(iidos
+BREAK: (a)bort (A)bort with dump (c)ontinue (p)roc i
+BREAK: (a)bort (A)bort with d
+BREAK: (a)bort (A)bort with du
+BREAK: (a)bort (A)bort wit
+hB 
+RdBEuRAmEKpA: K (:(c a)(
+)oaBb
+n)RoBt
+bE
+rRi
+BoA
+BtEnB
+RrKBR AuRBBEt:RE(KeERA R EAA: AEK(E(AK) (KA:AAaK:b(p:K )K): oa) :(b:b (r)r( ao o(atboa()r(ra) oc)abtat)bwr b)o ) boitiorwb(ort nirtioArth(ft ttr)t  Ao (hhtb (d) (A   o(Aub(A)dd(rA)moi)buuAt)bpr)bomm) bo tnorppbwor( frt  oirtcwot ((rtt )i wccth wot
+wi))  winh itoowditt  thnniuthid h tttmh nu  diihp dum dunn  duep umuud(um   mpeeucmp(((p   m)p pcl (((po ()))(cpp n(crooc)))(tc)ona)orrci)octdonoo)non ientccountindti  netinu iniit infe(nunni(nuo vueffnpue ()e oou)e (pe (  er (i)r(p(( o(p)rsp)ii(cp)noi)r))p )rfcoronn)iroo nocffrnoci c ooofc 
+n( ico i fkin
+
+  in o)f  i(nf  io  nifo (l   f)o  il(  on ( ) i   f(i n()  (oi)(fDn  i)nlo)f(()
+nf)bolln foo
+-))f oa t
+ooo 
+d a aa 
+ e b dd
+   d l ee      e dd    ( s    (  v   (( l  )(( vv )  eld()) o (r))lee a(lsoi)rr(dl)iasossle)oodtaii)doanerdooo ad dienna(de( bd  dvedk(u ((e)d )vt(kkde (i)iv)) r(vleo)ii(sv)lrnellvi)e srll)oer(i
+s  enrsDoi((r si)noDDs(iob n))ikon-( bbo)n tk(--ni (a)ktt l(kbi)aa(lk)llibbk )iellll)(ils leeiDll ( ssl)l (D(  lb (d)D(( -(D)b)dd(tD)i-b))Da)bst-ii)bb-tatssbl-trbatt-etailbrrtsabbeliia blusebbbt(le
+t suuldehsi(  tte)s  od (iisi d(n) doo s(udi )nn(tdm)
+ idr)pi s
+
+)ii s tibs(t(rsutcrlittr)i)briiobouiobnuatbnuttdiutiieot
+inodnioun one(
+n 
+v
+()
+pe)rrsoico ni n(fko) i(lil) n(fDo)b
+- t a b l e s  (l()do)aidsetdr i(bvu)teirosnio
+n (k)ill (D)b-tables (d)istribution
+dB)isRtErAiKb:u t(iao))nbnoi
+trs ttr( rik(ib)Abui)utlbtiloio ron(tnD 
+)w
+bi-ttha bdluemsp  ((dc))iosnttriinbuuet i(opn)r
+oc info (i)nfo
+       (l)oaded (v)ersion (k)ill (D)b-tables (d)istribution
+nfo (i)nfo
+       (l)oaded (v)ersion (k)ill (D)b-tables (d)istribution
+
+BREAK: (a)bort (A)ubomrbmptpn o  (srfw(cttoic) r t)o(i(honAbi nt)u)dtibtnuinoifmnuroopuetn e  
+( (w
+ c(pi )p)t o)rh nro  tocd ic u n im(uinplenf ) fo(o(o cap ()d)(ioeri)ndo)nt cnfi( fonviou)n
+eef
+  ro  (s   pi(  )oi  rn)  o n  c(f ( ko(li)l)ni
+)ofl oaol ad   de(( ediD d ))  (nb (vf-(v)otl)ea)er
+bors lasi edio seon  dn  (  ( d((k )vk)(i))ilseil)trllorsl aii (dbo(DeunD)dt )b i(b-(ok-tvn)ta)iabe
+lblrlles esi(s oD (n)(d bd)(-)iktis)astibtrllrileib sbu( utD(ti)diob)on-ints
+at
+brliebsu t(ido)nis
+tribution

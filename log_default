@@ -1,0 +1,280 @@
+mix compile
+Compiling 1 file (.ex)
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.79 [787,79,21] = log 79/83 [582,5,63]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.80 [981,81,44] = log 80/83 [787,79,21]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.81 [451,35,45] = log 81/83 [981,81,44]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.82 [880,95,26] = log 82/84 [451,35,45]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.79 [787,79,21] = log 79/84 [582,5,63]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.80 [981,81,44] = log 80/84 [787,79,21]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.81 [451,35,45] = log 81/84 [981,81,44]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.82 [880,95,26] = log 82/84 [451,35,45]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.79 [787,79,21] = log 79/84 [582,5,63]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.80 [981,81,44] = log 80/84 [787,79,21]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.81 [451,35,45] = log 81/84 [981,81,44]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.82 [880,95,26] = log 82/84 [451,35,45]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.83 [695,47,80] = log 83/103 [880,95,26]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.84 [128,61,38] = log 84/103 [695,47,80]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.85 [168,46,36] = log 85/103 [128,61,38]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.86 [225,59,33] = log 86/103 [168,46,36]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.87 [229,60,44] = log 87/103 [225,59,33]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.88 [247,50,34] = log 88/103 [654,76,84]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.89 [665,28,69] = log 89/103 [247,50,34]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.90 [829,40,80] = log 90/103 [665,28,69]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.91 [256,90,39] = log 91/103 [829,40,80]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.92 [755,31,50] = log 92/103 [256,90,39]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.93 [814,100,43] = log 93/103 [755,31,50]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.94 [512,60,28] = log 94/103 [814,100,43]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.95 [298,81,82] = log 95/103 [512,60,28]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.96 [940,9,13] = log 96/103 [298,81,82]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.97 [72,70,34] = log 97/103 [378,71,11]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.98 [798,16,29] = log 98/103 [72,70,34]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.99 [697,81,32] = log 99/103 [798,16,29]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.100 [561,50,100] = log 100/103 [697,81,32]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.101 [35,98,71] = log 101/103 [561,50,100]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.102 [1000,64,78] = log 102/103 [35,98,71]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.103 [1000,64,78] = log 103/104 [566,4,73]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.104 [566,4,73] = log 104/105 [848,31,19]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.105 [335,43,64] = log 105/106 [848,31,19]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.106 [335,43,64] = log 106/118 [150,11,80]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.107 [150,11,80] = log 107/118 [391,35,87]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.108 [391,35,87] = log 108/118 [334,98,30]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.109 [334,98,30] = log 109/118 [16,82,17]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.111 [718,92,43] = log 111/118 [335,71,90]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.115 [805,65,23] = log 115/118 [177,83,66]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.123 [135,68,74] = log 123/127 [849,10,49]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.124 [849,10,49] = log 124/127 [319,83,16]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.125 [107,10,19] = log 125/127 [581,72,32]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 2.126 [319,83,16] = log 126/127 [443,12,43]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.127 [687,40,18] = log 127/139 [581,72,32]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.128 [962,76,26] = log 128/140 [443,12,43]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.129 [260,95,61] = log 129/140 [687,40,18]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.130 [679,8,2] = log 130/140 [962,76,26]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.131 [801,35,74] = log 131/140 [260,95,61]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.132 [143,89,1] = log 132/140 [679,8,2]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.133 [460,29,60] = log 133/140 [801,35,74]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.134 [88,80,8] = log 134/140 [143,89,1]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.135 [555,13,53] = log 135/140 [460,29,60]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.136 [41,97,95] = log 136/140 [88,80,8]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.137 [877,70,20] = log 137/140 [555,13,53]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 1.138 [295,16,62] = log 138/140 [132,27,89]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.86 [758,36,37] = log 86/141 [168,46,36]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.83 [695,47,80] = log 83/141 [880,95,26]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.84 [128,61,38] = log 84/141 [695,47,80]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.85 [758,36,37] = log 85/141 [128,61,38]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.86 [225,59,33] = log 86/141 [168,46,36]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.87 [229,60,44] = log 87/141 [225,59,33]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.88 [247,50,34] = log 88/141 [654,76,84]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.89 [665,28,69] = log 89/141 [247,50,34]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.90 [829,40,80] = log 90/141 [665,28,69]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.91 [256,90,39] = log 91/141 [829,40,80]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.92 [755,31,50] = log 92/141 [256,90,39]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.93 [814,100,43] = log 93/141 [755,31,50]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.94 [298,81,82] = log 94/141 [814,100,43]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.95 [378,71,11] = log 95/141 [512,60,28]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.96 [72,70,34] = log 96/141 [298,81,82]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.97 [798,16,29] = log 97/141 [378,71,11]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.98 [697,81,32] = log 98/141 [72,70,34]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.99 [561,50,100] = log 99/141 [798,16,29]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.100 [35,98,71] = log 100/141 [697,81,32]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.101 [1000,64,78] = log 101/141 [561,50,100]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.102 [566,4,73] = log 102/141 [35,98,71]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.103 [848,31,19] = log 103/141 [566,4,73]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.104 [335,43,64] = log 104/141 [848,31,19]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.105 [150,11,80] = log 105/141 [848,31,19]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.106 [391,35,87] = log 106/141 [150,11,80]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.107 [334,98,30] = log 107/141 [391,35,87]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.108 [510,26,65] = log 108/141 [334,98,30]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.109 [335,71,90] = log 109/141 [16,82,17]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.110 [865,94,6] = log 110/141 [510,26,65]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.111 [941,97,9] = log 111/141 [335,71,90]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.112 [340,2,71] = log 112/141 [865,94,6]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.113 [805,65,23] = log 113/141 [941,97,9]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.114 [346,72,79] = log 114/141 [340,2,71]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.115 [306,97,76] = log 115/141 [177,83,66]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.116 [907,47,53] = log 116/141 [346,72,79]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.117 [164,48,89] = log 117/141 [306,97,76]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.118 [359,56,84] = log 118/141 [907,47,53]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.119 [308,96,15] = log 119/141 [164,48,89]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.120 [518,2,76] = log 120/141 [359,56,84]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.121 [135,68,74] = log 121/141 [308,96,15]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.122 [849,10,49] = log 122/141 [518,2,76]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.123 [532,28,51] = log 123/141 [849,10,49]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.127 [687,40,18] = log 127/141 [581,72,32]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.128 [962,76,26] = log 128/141 [443,12,43]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.129 [260,95,61] = log 129/141 [687,40,18]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.130 [679,8,2] = log 130/141 [962,76,26]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.131 [57,89,27] = log 131/141 [260,95,61]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.132 [801,35,74] = log 132/141 [679,8,2]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.83 [695,47,80] = log 83/141 [880,95,26]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.84 [128,61,38] = log 84/141 [695,47,80]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.85 [168,46,36] = log 85/141 [128,61,38]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.86 [225,59,33] = log 86/141 [168,46,36]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.87 [229,60,44] = log 87/141 [225,59,33]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.133 [143,89,1] = log 133/141 [801,35,74]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.88 [229,60,44] = log 88/141 [654,76,84]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.97 [940,9,13] = log 97/141 [378,71,11]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.103 [1000,64,78] = log 103/141 [566,4,73]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.104 [566,4,73] = log 104/141 [848,31,19]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.106 [335,43,64] = log 106/141 [150,11,80]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.107 [150,11,80] = log 107/141 [391,35,87]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.134 [460,29,60] = log 134/141 [143,89,1]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.135 [88,80,8] = log 135/141 [460,29,60]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.136 [555,13,53] = log 136/141 [88,80,8]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.137 [132,27,89] = log 137/141 [555,13,53]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.138 [877,70,20] = log 138/141 [132,27,89]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 4.139 [295,16,62] = log 139/141 [877,70,20]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.111 [865,94,6] = log 111/141 [335,71,90]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.112 [941,97,9] = log 112/141 [865,94,6]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.113 [340,2,71] = log 113/141 [941,97,9]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.114 [177,83,66] = log 114/141 [340,2,71]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.115 [346,72,79] = log 115/141 [177,83,66]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.116 [306,97,76] = log 116/141 [346,72,79]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.117 [907,47,53] = log 117/141 [306,97,76]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.118 [164,48,89] = log 118/141 [907,47,53]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.119 [359,56,84] = log 119/141 [164,48,89]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.120 [308,96,15] = log 120/141 [359,56,84]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.121 [305,14,42] = log 121/141 [308,96,15]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.122 [135,68,74] = log 122/141 [518,2,76]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.88 [247,50,34] = log 88/141 [654,76,84]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.89 [665,28,69] = log 89/141 [247,50,34]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.90 [829,40,80] = log 90/141 [665,28,69]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.91 [256,90,39] = log 91/141 [829,40,80]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.92 [755,31,50] = log 92/141 [256,90,39]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.93 [814,100,43] = log 93/141 [755,31,50]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.94 [648,97,50] = log 94/141 [814,100,43]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.95 [298,81,82] = log 95/141 [512,60,28]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.96 [72,70,34] = log 96/141 [298,81,82]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.97 [798,16,29] = log 97/141 [378,71,11]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.98 [697,81,32] = log 98/141 [72,70,34]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.99 [561,50,100] = log 99/141 [798,16,29]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.100 [35,98,71] = log 100/141 [697,81,32]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.101 [1000,64,78] = log 101/141 [561,50,100]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.102 [566,4,73] = log 102/141 [35,98,71]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.103 [848,31,19] = log 103/141 [566,4,73]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.104 [335,43,64] = log 104/141 [848,31,19]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.105 [150,11,80] = log 105/141 [848,31,19]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.106 [391,35,87] = log 106/141 [150,11,80]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.107 [334,98,30] = log 107/141 [391,35,87]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.108 [16,82,17] = log 108/141 [334,98,30]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.109 [510,26,65] = log 109/141 [16,82,17]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.110 [865,94,6] = log 110/141 [510,26,65]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.111 [941,97,9] = log 111/141 [335,71,90]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.124 [532,28,51] = log 124/141 [319,83,16]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.125 [319,83,16] = log 125/141 [581,72,32]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.126 [186,63,47] = log 126/141 [443,12,43]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.127 [443,12,43] = log 127/141 [581,72,32]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.128 [276,11,31] = log 128/141 [443,12,43]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.129 [962,76,26] = log 129/141 [687,40,18]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.130 [260,95,61] = log 130/141 [962,76,26]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.131 [679,8,2] = log 131/141 [260,95,61]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.132 [57,89,27] = log 132/141 [679,8,2]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.112 [340,2,71] = log 112/141 [865,94,6]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.137 [554,14,56] = log 137/141 [555,13,53]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.113 [177,83,66] = log 113/141 [941,97,9]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.114 [346,72,79] = log 114/141 [340,2,71]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.115 [306,97,76] = log 115/141 [177,83,66]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.116 [907,47,53] = log 116/141 [346,72,79]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.117 [164,48,89] = log 117/141 [306,97,76]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.118 [359,56,84] = log 118/141 [907,47,53]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.138 [265,60,2] = log 138/141 [132,27,89]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.139 [555,13,53] = log 139/141 [877,70,20]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 5.140 [132,27,89] = log 140/141 [295,16,62]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.119 [308,96,15] = log 119/143 [164,48,89]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.120 [305,14,42] = log 120/143 [359,56,84]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.121 [849,10,49] = log 121/143 [308,96,15]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.122 [319,83,16] = log 122/143 [518,2,76]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.123 [186,63,47] = log 123/143 [849,10,49]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.124 [443,12,43] = log 124/143 [319,83,16]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.125 [687,40,18] = log 125/143 [581,72,32]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.126 [962,76,26] = log 126/143 [443,12,43]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.127 [260,95,61] = log 127/143 [581,72,32]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.128 [679,8,2] = log 128/143 [443,12,43]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.129 [801,35,74] = log 129/143 [687,40,18]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.130 [143,89,1] = log 130/143 [962,76,26]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.131 [460,29,60] = log 131/143 [260,95,61]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.132 [88,80,8] = log 132/143 [679,8,2]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.133 [554,14,56] = log 133/143 [801,35,74]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.134 [265,60,2] = log 134/143 [143,89,1]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.135 [555,13,53] = log 135/143 [460,29,60]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.136 [132,27,89] = log 136/143 [88,80,8]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.137 [877,70,20] = log 137/143 [555,13,53]
+Exiting Node multipaxos_27_ml11018@127.0.0.1 -  ** error db 3.138 [295,16,62] = log 138/143 [132,27,89]
+time = 1000      db updates done = [{1, 139}, {2, 141}, {3, 139}, {4, 140}, {5, 143}]
+time = 1000       client requests seen = [{1, 277}, {2, 260}, {3, 257}, {4, 232}, {5, 252}]
+time = 1000      total seen = 1278 max lag = 1139
+time = 1000      scouts spawned = [{1, 20}, {2, 19}, {3, 24}, {4, 22}, {5, 22}]
+time = 1000      scouts finished = [{1, 20}, {2, 19}, {3, 24}, {4, 22}, {5, 22}]
+time = 1000      commanders spawned = [{1, 2576}, {2, 639}, {3, 4076}, {4, 4659}, {5, 3821}]
+time = 1000      commanders finished = [{1, 2576}, {2, 639}, {3, 4076}, {4, 4659}, {5, 3821}]
+
+
+19:08:48.427 [error] Process #PID<0.136.0> on node :"client2_27_ml11018@127.0.0.1" raised an exception
+** (ErlangError) Erlang error: :terminated
+    (stdlib 3.14) :io.put_chars(:standard_io, :unicode, ["  Client 2 going to sleep, sent = 5000", 10])
+    (multipaxos 0.1.0) lib/client.ex:25: Client.next/5
+
+19:08:48.487 [error] Process #PID<0.136.0> on node :"client3_27_ml11018@127.0.0.1" raised an exception
+** (ErlangError) Erlang error: :terminated
+    (stdlib 3.14) :io.put_chars(:standard_io, :unicode, ["  Client 3 going to sleep, sent = 5000", 10])
+    (multipaxos 0.1.0) lib/client.ex:25: Client.next/5
+Exiting Node server1_27_ml11018@127.0.0.1 - maxtime 20000 reached
+
+19:08:48.655 [error] Process #PID<0.136.0> on node :"client1_27_ml11018@127.0.0.1" raised an exception
+** (ErlangError) Erlang error: :terminated
+    (stdlib 3.14) :io.put_chars(:standard_io, :unicode, ["  Client 1 going to sleep, sent = 5000", 10])
+    (multipaxos 0.1.0) lib/client.ex:25: Client.next/5
+
+19:08:48.661 [error] Process #PID<0.136.0> on node :"client4_27_ml11018@127.0.0.1" raised an exception
+** (ErlangError) Erlang error: :terminated
+    (stdlib 3.14) :io.put_chars(:standard_io, :unicode, ["  Client 4 going to sleep, sent = 5000", 10])
+    (multipaxos 0.1.0) lib/client.ex:25: Client.next/5
+Exiting Node server11_27_ml11018@127.0.0.1 - maxtime 20000 reached
+
+19:08:48.849 [error] Process #PID<0.136.0> on node :"client5_27_ml11018@127.0.0.1" raised an exception
+** (ErlangError) Erlang error: :terminated
+    (stdlib 3.14) :io.put_chars(:standard_io, :unicode, ["  Client 5 going to sleep, sent = 5000", 10])
+    (multipaxos 0.1.0) lib/client.ex:25: Client.next/5
+Exiting Node server9_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server13_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server5_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server6_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server12_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server14_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server28_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server10_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server8_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server2_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server3_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server16_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server15_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server22_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server21_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server38_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server33_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server7_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server4_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server32_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server23_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server37_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server18_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server39_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server29_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server31_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server17_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server30_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node client2_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server34_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server26_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node client3_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server27_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server40_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server20_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server24_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node client1_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server36_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server25_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server19_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node client4_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node client5_27_ml11018@127.0.0.1 - maxtime 20000 reached
+Exiting Node server35_27_ml11018@127.0.0.1 - maxtime 20000 reached
+{removed_failing_handler,default}

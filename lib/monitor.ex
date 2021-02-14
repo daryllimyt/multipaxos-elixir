@@ -54,7 +54,7 @@ def next(config, state) do
     if seqnum != done + 1, do:
       Util.halt "  ** error db #{db}: seq #{seqnum} expecting #{done+1}"
 
-    transactions =
+    transactions = 
       case Map.get(state.transactions, seqnum) do
       nil -> # IO.puts "db #{db} seq #{seqnum} = #{done+1}"
         Map.put(state.transactions, seqnum, %{amount: amount, from: from, to: to})
@@ -104,22 +104,22 @@ def next(config, state) do
     sorted = state.updates  |> Map.to_list |> List.keysort(0)
     IO.puts "time = #{clock}      db updates done = #{inspect sorted}"
     sorted = state.requests |> Map.to_list |> List.keysort(0)
-    IO.puts "time = #{clock} client requests seen = #{inspect sorted}"
+    IO.puts "time = #{clock}       client requests seen = #{inspect sorted}"
 
     if config.debug_level == 0 do
       min_done   = state.updates  |> Map.values |> Enum.min(fn -> 0 end)
       n_requests = state.requests |> Map.values |> Enum.sum
-      IO.puts "time = #{clock}           total seen = #{n_requests} max lag = #{n_requests-min_done}"
+      IO.puts "time = #{clock}      total seen = #{n_requests} max lag = #{n_requests-min_done}"
 
       sorted = state.scouts_spawned |> Map.to_list |> List.keysort(0)
-      IO.puts "time = #{clock}            scouts up = #{inspect sorted}"
+      IO.puts "time = #{clock}      scouts spawned = #{inspect sorted}"
       sorted = state.scouts_finished |> Map.to_list |> List.keysort(0)
-      IO.puts "time = #{clock}          scouts down = #{inspect sorted}"
+      IO.puts "time = #{clock}      scouts finished = #{inspect sorted}"
 
       sorted = state.commanders_spawned |> Map.to_list |> List.keysort(0)
-      IO.puts "time = #{clock}        commanders up = #{inspect sorted}"
+      IO.puts "time = #{clock}      commanders spawned = #{inspect sorted}"
       sorted = state.commanders_finished |> Map.to_list |> List.keysort(0)
-      IO.puts "time = #{clock}      commanders down = #{inspect sorted}"
+      IO.puts "time = #{clock}      commanders finished = #{inspect sorted}"
     end
 
     IO.puts ""
