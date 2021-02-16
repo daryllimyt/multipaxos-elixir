@@ -1,10 +1,10 @@
  # Daryl Lim (dyl17) and Marian Lukac (ml11018)
 
-SERVERS  = 5
-CLIENTS  = 5
-CONFIG   = default
-DEBUG    = 4
-MAX_TIME = 20000
+SERVERS  = 7
+CLIENTS  = 1
+CONFIG   = crash_4
+DEBUG    = 0
+MAX_TIME = 80000
 
 START    = Multipaxos.start
 HOST	:= 127.0.0.1
@@ -70,6 +70,13 @@ run cluster: compile
 	@ ${ELIXIR} client3_${NODE_SUFFIX} ${MIX} cluster_wait &
 	@ ${ELIXIR} client4_${NODE_SUFFIX} ${MIX} cluster_wait &
 	@ ${ELIXIR} client5_${NODE_SUFFIX} ${MIX} cluster_wait &
+	@ ${ELIXIR} client6_${NODE_SUFFIX} ${MIX} cluster_wait &
+	@ ${ELIXIR} client7_${NODE_SUFFIX} ${MIX} cluster_wait &
+	@ ${ELIXIR} client8_${NODE_SUFFIX} ${MIX} cluster_wait &
+	@ ${ELIXIR} client9_${NODE_SUFFIX} ${MIX} cluster_wait &
+	@ ${ELIXIR} client10_${NODE_SUFFIX} ${MIX} cluster_wait &
+	@ ${ELIXIR} client11_${NODE_SUFFIX} ${MIX} cluster_wait &
+	@ ${ELIXIR} client12_${NODE_SUFFIX} ${MIX} cluster_wait &
 	@sleep 3
 	@ ${ELIXIR} multipaxos_${NODE_SUFFIX} ${MIX} cluster_start
 

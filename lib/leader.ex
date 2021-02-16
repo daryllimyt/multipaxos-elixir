@@ -24,7 +24,7 @@ defmodule Leader do
         receive do
             {:propose, s, c} ->
                 Debug.letter(config, "[LEADER: #{config.node_num}] Proposal for slot #{s} containing command #{inspect c} accepted.")
-                if !MapSet.member?(params.proposals, {s, c}) do
+                if !Enum.find(params.proposals, fn {slot_num, _} -> slot_num==s end) do
                       params = %{params | :proposals => MapSet.put(params.proposals,{s,c})}  
                       if params.active do
                         send config.monitor, { :COMMANDER_SPAWNED, config.node_num }
@@ -47,9 +47,11 @@ defmodule Leader do
                 next config, params
 
             {:preempted, {r,l}} ->
+                #if given ballot_num is greater than current one update it and start from beginning
                 if Util.ballot_gt({r,l},params.ballot_num) do
                     params = %{params | :active => false , :ballot_num => {r+1, config.node_num}}
-                    Process.sleep(preempted*100)
+                    # delay to prevent livelocks
+                    Process.sleep(preempted*30  + Enum.random(0..10)*10)
                     send config.monitor, { :SCOUT_SPAWNED, config.node_num }
                     spawn Scout, :start, [ config, self(), params.acceptors, params.ballot_num]
                     next config, params, (preempted+1)
