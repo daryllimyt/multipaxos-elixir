@@ -1,308 +1,0 @@
-mix compile
-  Client 1 going to sleep, sent = 50
-  Client 3 going to sleep, sent = 50
-  Client 2 going to sleep, sent = 50
-  Client 4 going to sleep, sent = 50
-  Client 5 going to sleep, sent = 50
-time = 1000      db updates done = [{1, 125}, {2, 125}, {3, 125}, {4, 125}, {5, 125}]
-time = 1000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 1000      total seen = 250 max lag = 125
-time = 1000      scouts spawned = [{1, 40}, {2, 31}, {3, 29}, {4, 39}, {5, 39}]
-time = 1000      scouts finished = [{1, 40}, {2, 31}, {3, 28}, {4, 39}, {5, 39}]
-time = 1000      commanders spawned = [{1, 2818}, {2, 1400}, {3, 2054}, {4, 4898}, {5, 4648}]
-time = 1000      commanders finished = [{1, 2818}, {2, 1400}, {3, 2054}, {4, 4688}, {5, 4648}]
-
-time = 2000      db updates done = [{1, 125}, {2, 125}, {3, 125}, {4, 125}, {5, 125}]
-time = 2000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 2000      total seen = 250 max lag = 125
-time = 2000      scouts spawned = [{1, 43}, {2, 34}, {3, 63}, {4, 55}, {5, 72}]
-time = 2000      scouts finished = [{1, 43}, {2, 34}, {3, 63}, {4, 55}, {5, 71}]
-time = 2000      commanders spawned = [{1, 2818}, {2, 1400}, {3, 9536}, {4, 7478}, {5, 12388}]
-time = 2000      commanders finished = [{1, 2818}, {2, 1400}, {3, 9536}, {4, 7478}, {5, 12388}]
-
-time = 3000      db updates done = [{1, 200}, {2, 200}, {3, 200}, {4, 200}, {5, 200}]
-time = 3000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 3000      total seen = 250 max lag = 50
-time = 3000      scouts spawned = [{1, 47}, {2, 38}, {3, 90}, {4, 60}, {5, 97}]
-time = 3000      scouts finished = [{1, 47}, {2, 38}, {3, 90}, {4, 60}, {5, 97}]
-time = 3000      commanders spawned = [{1, 3176}, {2, 1400}, {3, 17744}, {4, 7478}, {5, 20239}]
-time = 3000      commanders finished = [{1, 3176}, {2, 1400}, {3, 17744}, {4, 7478}, {5, 20239}]
-
-time = 4000      db updates done = [{1, 200}, {2, 200}, {3, 200}, {4, 200}, {5, 200}]
-time = 4000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 4000      total seen = 250 max lag = 50
-time = 4000      scouts spawned = [{1, 58}, {2, 41}, {3, 113}, {4, 63}, {5, 119}]
-time = 4000      scouts finished = [{1, 58}, {2, 41}, {3, 113}, {4, 63}, {5, 119}]
-time = 4000      commanders spawned = [{1, 4608}, {2, 1400}, {3, 25620}, {4, 7478}, {5, 28212}]
-time = 4000      commanders finished = [{1, 4608}, {2, 1400}, {3, 25620}, {4, 7478}, {5, 28115}]
-
-time = 5000      db updates done = [{1, 250}, {2, 250}, {3, 250}, {4, 250}, {5, 250}]
-time = 5000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 5000      total seen = 250 max lag = 0
-time = 5000      scouts spawned = [{1, 63}, {2, 42}, {3, 131}, {4, 64}, {5, 136}]
-time = 5000      scouts finished = [{1, 63}, {2, 42}, {3, 130}, {4, 64}, {5, 135}]
-time = 5000      commanders spawned = [{1, 5286}, {2, 1400}, {3, 32781}, {4, 7478}, {5, 35159}]
-time = 5000      commanders finished = [{1, 5286}, {2, 1400}, {3, 32781}, {4, 7478}, {5, 35159}]
-
-time = 6000      db updates done = [{1, 250}, {2, 250}, {3, 250}, {4, 250}, {5, 250}]
-time = 6000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 6000      total seen = 250 max lag = 0
-time = 6000      scouts spawned = [{1, 75}, {2, 47}, {3, 145}, {4, 69}, {5, 146}]
-time = 6000      scouts finished = [{1, 75}, {2, 47}, {3, 144}, {4, 69}, {5, 146}]
-time = 6000      commanders spawned = [{1, 12066}, {2, 1400}, {3, 39561}, {4, 7478}, {5, 41939}]
-time = 6000      commanders finished = [{1, 12066}, {2, 1400}, {3, 39561}, {4, 7478}, {5, 41939}]
-
-time = 7000      db updates done = [{1, 250}, {2, 250}, {3, 250}, {4, 250}, {5, 250}]
-time = 7000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 7000      total seen = 250 max lag = 0
-time = 7000      scouts spawned = [{1, 88}, {2, 49}, {3, 159}, {4, 71}, {5, 156}]
-time = 7000      scouts finished = [{1, 87}, {2, 49}, {3, 159}, {4, 71}, {5, 156}]
-time = 7000      commanders spawned = [{1, 20202}, {2, 1400}, {3, 45663}, {4, 7478}, {5, 49343}]
-time = 7000      commanders finished = [{1, 19984}, {2, 1400}, {3, 45663}, {4, 7478}, {5, 49260}]
-
-time = 8000      db updates done = [{1, 250}, {2, 250}, {3, 250}, {4, 250}, {5, 250}]
-time = 8000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 8000      total seen = 250 max lag = 0
-time = 8000      scouts spawned = [{1, 102}, {2, 50}, {3, 169}, {4, 72}, {5, 167}]
-time = 8000      scouts finished = [{1, 101}, {2, 50}, {3, 169}, {4, 72}, {5, 166}]
-time = 8000      commanders spawned = [{1, 26982}, {2, 1400}, {3, 52443}, {4, 7478}, {5, 56177}]
-time = 8000      commanders finished = [{1, 26982}, {2, 1400}, {3, 52443}, {4, 7478}, {5, 56177}]
-
-time = 9000      db updates done = [{1, 250}, {2, 250}, {3, 250}, {4, 250}, {5, 250}]
-time = 9000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 9000      total seen = 250 max lag = 0
-time = 9000      scouts spawned = [{1, 114}, {2, 51}, {3, 182}, {4, 73}, {5, 178}]
-time = 9000      scouts finished = [{1, 114}, {2, 51}, {3, 181}, {4, 73}, {5, 178}]
-time = 9000      commanders spawned = [{1, 31050}, {2, 1400}, {3, 59901}, {4, 7478}, {5, 63635}]
-time = 9000      commanders finished = [{1, 31050}, {2, 1400}, {3, 59901}, {4, 7478}, {5, 63635}]
-
-time = 10000      db updates done = [{1, 250}, {2, 250}, {3, 250}, {4, 250}, {5, 250}]
-time = 10000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 10000      total seen = 250 max lag = 0
-time = 10000      scouts spawned = [{1, 118}, {2, 54}, {3, 192}, {4, 76}, {5, 188}]
-time = 10000      scouts finished = [{1, 118}, {2, 54}, {3, 192}, {4, 75}, {5, 188}]
-time = 10000      commanders spawned = [{1, 31050}, {2, 1400}, {3, 67047}, {4, 7478}, {5, 71305}]
-time = 10000      commanders finished = [{1, 31050}, {2, 1400}, {3, 67047}, {4, 7478}, {5, 70854}]
-
-time = 11000      db updates done = [{1, 250}, {2, 250}, {3, 250}, {4, 250}, {5, 250}]
-time = 11000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 11000      total seen = 250 max lag = 0
-time = 11000      scouts spawned = [{1, 121}, {2, 57}, {3, 205}, {4, 85}, {5, 197}]
-time = 11000      scouts finished = [{1, 121}, {2, 57}, {3, 204}, {4, 84}, {5, 196}]
-time = 11000      commanders spawned = [{1, 31050}, {2, 1400}, {3, 73199}, {4, 14399}, {5, 77702}]
-time = 11000      commanders finished = [{1, 31050}, {2, 1400}, {3, 72727}, {4, 14399}, {5, 77702}]
-
-time = 12000      db updates done = [{1, 250}, {2, 250}, {3, 250}, {4, 250}, {5, 250}]
-time = 12000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 12000      total seen = 250 max lag = 0
-time = 12000      scouts spawned = [{1, 123}, {2, 59}, {3, 214}, {4, 98}, {5, 205}]
-time = 12000      scouts finished = [{1, 123}, {2, 59}, {3, 214}, {4, 97}, {5, 205}]
-time = 12000      commanders spawned = [{1, 31050}, {2, 1400}, {3, 78982}, {4, 20551}, {5, 83854}]
-time = 12000      commanders finished = [{1, 31050}, {2, 1400}, {3, 78669}, {4, 20551}, {5, 83854}]
-
-time = 13000      db updates done = [{1, 250}, {2, 250}, {3, 250}, {4, 250}, {5, 250}]
-time = 13000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 13000      total seen = 250 max lag = 0
-time = 13000      scouts spawned = [{1, 124}, {2, 61}, {3, 224}, {4, 108}, {5, 214}]
-time = 13000      scouts finished = [{1, 124}, {2, 61}, {3, 224}, {4, 108}, {5, 214}]
-time = 13000      commanders spawned = [{1, 31050}, {2, 1400}, {3, 83965}, {4, 27205}, {5, 90081}]
-time = 13000      commanders finished = [{1, 31050}, {2, 1400}, {3, 83965}, {4, 26807}, {5, 90018}]
-
-time = 14000      db updates done = [{1, 250}, {2, 250}, {3, 250}, {4, 250}, {5, 250}]
-time = 14000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 14000      total seen = 250 max lag = 0
-time = 14000      scouts spawned = [{1, 132}, {2, 65}, {3, 235}, {4, 114}, {5, 221}]
-time = 14000      scouts finished = [{1, 132}, {2, 65}, {3, 235}, {4, 114}, {5, 221}]
-time = 14000      commanders spawned = [{1, 33701}, {2, 1400}, {3, 88673}, {4, 31411}, {5, 94790}]
-time = 14000      commanders finished = [{1, 33424}, {2, 1400}, {3, 88673}, {4, 31411}, {5, 94726}]
-
-time = 15000      db updates done = [{1, 250}, {2, 250}, {3, 250}, {4, 250}, {5, 250}]
-time = 15000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 15000      total seen = 250 max lag = 0
-time = 15000      scouts spawned = [{1, 140}, {2, 67}, {3, 242}, {4, 122}, {5, 228}]
-time = 15000      scouts finished = [{1, 140}, {2, 67}, {3, 242}, {4, 121}, {5, 228}]
-time = 15000      commanders spawned = [{1, 38115}, {2, 1400}, {3, 93383}, {4, 36906}, {5, 99425}]
-time = 15000      commanders finished = [{1, 38115}, {2, 1400}, {3, 93383}, {4, 36906}, {5, 99425}]
-
-time = 16000      db updates done = [{1, 250}, {2, 250}, {3, 250}, {4, 250}, {5, 250}]
-time = 16000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 16000      total seen = 250 max lag = 0
-time = 16000      scouts spawned = [{1, 148}, {2, 69}, {3, 251}, {4, 128}, {5, 235}]
-time = 16000      scouts finished = [{1, 148}, {2, 69}, {3, 250}, {4, 127}, {5, 235}]
-time = 16000      commanders spawned = [{1, 41255}, {2, 1400}, {3, 98878}, {4, 41616}, {5, 104920}]
-time = 16000      commanders finished = [{1, 41255}, {2, 1400}, {3, 98828}, {4, 41616}, {5, 104920}]
-
-time = 17000      db updates done = [{1, 250}, {2, 250}, {3, 250}, {4, 250}, {5, 250}]
-time = 17000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 17000      total seen = 250 max lag = 0
-time = 17000      scouts spawned = [{1, 150}, {2, 70}, {3, 259}, {4, 137}, {5, 243}]
-time = 17000      scouts finished = [{1, 150}, {2, 70}, {3, 259}, {4, 137}, {5, 242}]
-time = 17000      commanders spawned = [{1, 41255}, {2, 1400}, {3, 103988}, {4, 47111}, {5, 111200}]
-time = 17000      commanders finished = [{1, 41255}, {2, 1400}, {3, 103626}, {4, 47111}, {5, 111200}]
-
-time = 18000      db updates done = [{1, 250}, {2, 250}, {3, 250}, {4, 250}, {5, 250}]
-time = 18000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 18000      total seen = 250 max lag = 0
-time = 18000      scouts spawned = [{1, 154}, {2, 71}, {3, 269}, {4, 144}, {5, 249}]
-time = 18000      scouts finished = [{1, 153}, {2, 71}, {3, 268}, {4, 144}, {5, 249}]
-time = 18000      commanders spawned = [{1, 42043}, {2, 1400}, {3, 107522}, {4, 52615}, {5, 115919}]
-time = 18000      commanders finished = [{1, 42043}, {2, 1400}, {3, 107522}, {4, 52615}, {5, 115919}]
-
-time = 19000      db updates done = [{1, 250}, {2, 250}, {3, 250}, {4, 250}, {5, 250}]
-time = 19000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 19000      total seen = 250 max lag = 0
-time = 19000      scouts spawned = [{1, 161}, {2, 77}, {3, 275}, {4, 150}, {5, 255}]
-time = 19000      scouts finished = [{1, 161}, {2, 76}, {3, 275}, {4, 150}, {5, 254}]
-time = 19000      commanders spawned = [{1, 45195}, {2, 4552}, {3, 110674}, {4, 56555}, {5, 120647}]
-time = 19000      commanders finished = [{1, 45195}, {2, 4421}, {3, 110674}, {4, 56555}, {5, 120647}]
-
-time = 20000      db updates done = [{1, 250}, {2, 250}, {3, 250}, {4, 250}, {5, 250}]
-time = 20000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 20000      total seen = 250 max lag = 0
-time = 20000      scouts spawned = [{1, 165}, {2, 84}, {3, 282}, {4, 156}, {5, 261}]
-time = 20000      scouts finished = [{1, 165}, {2, 84}, {3, 281}, {4, 156}, {5, 261}]
-time = 20000      commanders spawned = [{1, 45195}, {2, 8492}, {3, 115402}, {4, 61283}, {5, 125375}]
-time = 20000      commanders finished = [{1, 45195}, {2, 8492}, {3, 115402}, {4, 61283}, {5, 125375}]
-
-time = 21000      db updates done = [{1, 250}, {2, 250}, {3, 250}, {4, 250}, {5, 250}]
-time = 21000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 21000      total seen = 250 max lag = 0
-time = 21000      scouts spawned = [{1, 166}, {2, 91}, {3, 288}, {4, 163}, {5, 267}]
-time = 21000      scouts finished = [{1, 166}, {2, 91}, {3, 287}, {4, 162}, {5, 266}]
-time = 21000      commanders spawned = [{1, 45195}, {2, 13220}, {3, 119342}, {4, 66011}, {5, 130103}]
-time = 21000      commanders finished = [{1, 45195}, {2, 13220}, {3, 119342}, {4, 65369}, {5, 130103}]
-
-time = 22000      db updates done = [{1, 250}, {2, 250}, {3, 250}, {4, 250}, {5, 250}]
-time = 22000       client requests seen = [{1, 50}, {2, 50}, {3, 50}, {4, 50}, {5, 50}]
-time = 22000      total seen = 250 max lag = 0
-time = 22000      scouts spawned = [{1, 168}, {2, 99}, {3, 294}, {4, 168}, {5, 273}]
-time = 22000      scouts finished = [{1, 168}, {2, 99}, {3, 294}, {4, 168}, {5, 272}]
-time = 22000      commanders spawned = [{1, 45195}, {2, 17160}, {3, 123282}, {4, 70546}, {5, 134831}]
-time = 22000      commanders finished = [{1, 45195}, {2, 17160}, {3, 123282}, {4, 70423}, {5, 134831}]
-
-
-BREAK: (a)
-BREA
-K
-BRE
-A
-BREAK: (a)bo
-rB
-tRB
- ERB(AERA
-BREAK: (
-BREAK: (a)bort (A
-BREAK: (a)bort (
-BREAK: (a)bort (A)bort with dum
-pB R(EcA
-BREAK: (a
-BREAK: (
-B
-RBE
-B
-RBERAEK
-B
-R
-BEBRAREKEA:
-AK B
-K
-BREAK: (a)bort (A)bort with dump 
-
-BREAK: (a)bort (A)
-
-BREAK: (a)bort (
-
-BBRREEAAKK::  ((aa
-BREAK: (a)
-BREAK: 
-B
-
-BRE
-B
-RBERAEKA:K :( a()ab)ob
-ro
-BREAK: (a)bort (A)bor
-BREA
-BREAK:
- (a)BbRoErAtK :(bort (A)bort with dump (cB)o: BREAK: (a)bort (K: (a)bort (A)borKA: KE()bort with dump (c)ontina))bobroA)bort w)itK:) (baoa)bort R(AK: A(a: :( a(aREAK: B(aR):E
-(BRBc
-Bbort BwA))b)bbort (A)(aR)BREAAK: (ta)bB r(At witKh  A()REAK: (na()aAb)ob)rot w:it Ah( aaue (ptr onh )durmEtp A (KA)K:)b(o)bor)bbo (AK: (a)bEoREA)KREAK: REAK: (ia)btohboortorboEAK: (a)bbooKrrtt: ortREt (A)bor)t: d(aab)boorrt ttbort wtitrtK: d(a)b)orbto r)(t (At)boirntbu(c)ontA)bort w:it bh( ao (a)abo)rbrtt orrt t( A()Abao)rbtoArtrKo: (a)bort (ra drt (A) witt r(At ) ((a (A)AKbo wu)bort (A()boiAr) bwoirtth   w(dih  (uA)mbpo r)(tc bt rocA i)wnbf oort (Ae)inudu)bort (rA)t (or (A)(A)bo)rtb   (t (A)b:ornt(it (A)buormbort hwi  td(hwbu AAimdo)tp)urbh bmto (op rdcr wtu)t(i mo ctwpnw)hi tio t(itndhcnhtu )u imdoednpun uu )bboorrtt: rt ith dummp p(nue (p)trAu)mtbpoh dum)pwoirtth  ((dAu)Amort wiitwith  d(uim)pn (bort ewimpt bort wAith) bt (A)bboorwtwiA )(bao)rtbA)nu)bt p m(tinue( mp (ec) o(c)onti nue( w(awi th(c) woitrch t (con ti(bncu)oe)bort wipth  td(h d f(oc)
-op n t) i (th  dumwp(d ort woirti wtih wtth  worboer t( or(Ap c)p)(p(pnt iA)borti)b dump (c)on d wduin)foo n(ornt ti u(nwhpc)ontumro  nup)irotchc um(p (cc)rt twth  didu dwumiitt (Ap)wit )(continure)r)r(pnu wittorc)onttiumpimp (c)ontti)mp (c)uei (tp)rho d)roc iinue (ppc   e  d)oin)oonh itump t(cmpp (c)tonh )broth dump wibth)o rodtnoc inf oococ i)nfrooe h ht (A)boortinnu e( thininnfoo dc umnp (c)on)triion(l)oad(pump (nc)fontintidumh dump (ch))o nh tidnuuemorct (cu)om wtit(hi  p  ic((dump ( dnum tpue (p)rocc(p)roc ue (pu)ntiump (cinffo o( i nfc uee )trontin (uie)nup (c)on dump (c)ontinon(tictn)udu (p  iwintp (c)onntd(i))nrnfo info i(i)p)c)inwi th)on ti duemp ro
-   nu)e o(n(i))(c)ontoin u(indf (p)inocue (p)ronc fion
-   e tinueue (p)roinue (op)rnoem (pp )(p)roc i(cnfo t(ih)inuuinue (up)o
-foc )nnfroontue (p)ro(cc  dinfon uinfo (i) ((pc     (lp)tinue (pnfnfeo i
-(o )(vr)eue   (p)rfo  (( ip))  c  (ilticnue  i(roc incfo) o(ninfo )ontinu e nfoe
-   (e (p)romcroc in fo   infooc infoi (niu)ontinfuom p(i)nfeonfo
-  c  )roc iin)for o(ci oa)rop) ro(i)nfo
-   n f  o o  rsion (kinfo ((i)npf)orocnfroo(
-c nf)onfpo )(rito)nfo
-(  i(pdu    p p ( i(nf  (ifo
-
- )nein(i)nf o
-( c  ) o
-)   n (flo)nifondoc 
- c  c ( l
-  )ioc  ii nnfpi  o a)dendf oi(vnc
-   )  n)rmp)r(lc)i)o (i ))n (      fo ue( (pp)  n  (on t)oa (i)fnfeod
-  
-i   n finifo)n f o( (ll)o
-fo (i)nfoo)rnfo   ( (i)l))ue info  ((lfoc  ino()coo)nf  (l)noaffoi) nf o (p)roc i
- )rrotinuel ( )idno (i)nfo(v)ersion (      ( l o oad  i)nfol
-ade   (
-oc info  (nfeoor
- as  i  )) nofoc ainntofio
-     d  eo(d
-          (l n)(  oc info (cip)roc  io n af edue 
-(k) il )l   o(a id(e)ei   (l)oade d       (ld)o   i  ) n(       (l(ii)  d(epd) rio n (o(lkfa)
-    (deo n(i)tnifno
-    nuel (p))oraodc
- (
-      ( ofal) oa d e  in)fodeod  ((v(l  ( p)roc inf o (((il  n(ld (v)d )n(D (v)eraded(v)fol)oa)de)nnfo (  vo )ided (vo)eroa   i)dnue  ed info (i  v)l)(loded (dv) (lnf (ii))nf)ova  )nD)b-)taobalfd)oear(dfo
-) si (ev)reoda d(efo
-)ecrsi oi (l)oadell
- sion (dk (l)oad (fv) oe ( l)()ovan)df eeoresroa)oa ders(v))eoor)nefors
-io o) ded    f(les (o
- ed siv)eerd (sb-   o  n  (sl)
- rv)ders i( 
-n  n   d (   e  d  ()(ed (p
-r d  ( v
-isidoed (v()eier)sndif iooaded
-      sion (
-n er   (  v()loe)r)doa) d(v)ersioon nv(iotable(sioon a(dke)  s io o vn(kfo       ( vD)lilv)(v)e)sion  (k ) i   )(le   on n(k(v)ersinonon  ( (l)oakde       (ks)ii
-   o sion (ik e   d ) k)ill (nDk) il(ld )d ilnl   ()l)eor ()k)i  (i()nlf)ooa
-d )ebrs-)il e(Drrsion r(kll  ( D())oadresd   ()ill (D )b (-k
-( kv ) )i e)l d (l)oadedl on ad  stribut)ion(k )ie(l(r )(b(D)b-tia((v)De(ka)idsiioll (ed   taobleon)b-staibooc)illlb) o(-ion (k) (v)er sk)ill(k)til)irlsllil l(lv) (v()ekr)sieil (l)oadill 
-ll) o(vaDskion-)s bles )(rsll (eDll (D)nb-t a( bkl) ( v) eads (d )les n(d  info (ia)nfD)tbill (D i(lo)no  a((dalb i on  (D )ersio(non d l(v )(ed(Dded )ers)btaiblleltr(kb-tabdleion (dk)b-tablles (d())iolla  rseiod(kis)(ikdsoab-letsa b)(ldek)iD)b-ed (v)leressi(D()b (k((Db)b--ttaaDbbll )ee(k)ill e(D)rbs-itDo (v)ers)ionb -((tkaion (-k)itlas (d)i st(ib)i)lli s(tsDr)i b b)ill (eD)sD)bi-tsdatbreli(l)oad(ed nD()  (v)er)ill (tD)rbi-b)ielld  ((tDv))
-b )istrsibluta blonD (-)ktb))lb)-(otaskad )bs (adb)bn v)ersi)oni l(bles (dl b(Drl)eDibsbuutti(io-od(vubt (ddes buv)b-tab(k)ill sitautributiobner-t   (l t(D(de)issab-tiabiled (v)(dilll)istrilb-tabl(kl k))i-t)b (n
-n
-ta)b)lee-sri  ()(d(vi)tiesitlro(Do)bb-lteia-tablessab le ds  i))b-tabl es (trlell (D)lb-tleasersion) (es (eutes)il(Di)bl-ltstabl-td)istritasion on
-)ersidon)s ries (d)sistnin (k)is (d)iosbles 
-(d)i (id) ((don
-i(dd))iisstibs  ((bles (isk)ill  D)bs ion
- (d)ilstr (abrleiesbaibubtil(oenistr(k)ill b(ri
-on (kl)ntributstoin sl()issttrriubtduD) (d)tr((D)-b-t(taa bdbibD) (d)isstr iutblstk)s (dtributioin
-utionD)bulti il
-ion
-rit)rikoba)trribiiubion
-)itstrbiid)isibd)istrile(D))bleutb-table(sbuioesr (il
-l )ibutio
-n
-b-ot(l b(Du)tbi-otutdiltibuutit-oonbutioistribution
-ubts i(-ss (d)istiridobn (d)istributtnid)(stnaD)b-tables (d)istrnibauioed (v)ersion (k)ill l(Do)iotan
-n
-tuitdt)itr)iu
-ioiobu
-isDtr)ribbi
-btibonle
-s (
-n (Dn
-b-tables (d)istnrb
-roinibables (d)isstibsttinn
-ti-tables (d)isutbuld)
-ist)ribbui
-bution
-les (
-d)istoriuntrruiburton
-
-ontition
-es (d)istributi-ontibtutii
