@@ -1,8 +1,8 @@
  # Daryl Lim (dyl17) and Marian Lukac (ml11018)
 
-SERVERS  = 7
-CLIENTS  = 1
-CONFIG   = crash_4
+SERVERS  = 5
+CLIENTS  = 5
+CONFIG   = default
 DEBUG    = 0
 MAX_TIME = 80000
 
